@@ -75,6 +75,9 @@ def validate(catalog):
             problems.append(f"{where}: hosting must be copy or link")
         if not str(item.get("url", "")).startswith("https://"):
             problems.append(f"{where}: url must be https")
+        debian = item.get("fetch", {}).get("debian")
+        if debian is not None and not re.fullmatch(r"[a-z0-9][a-z0-9.+-]+", debian):
+            problems.append(f"{where}: fetch.debian must be a Debian source package name")
         if item.get("category") == "licensed" and item.get("hosting") == "copy":
             problems.append(f"{where}: licensed specifications are never copied")
     return problems
@@ -112,6 +115,32 @@ def resolve_pdf(page_url, match):
     return None
 
 
+def debian_version_key(version):
+    """Orders Debian upstream versions well enough to pick the newest .orig tarball:
+    runs of digits compare as numbers, everything else as text, and ~ sorts first."""
+    parts = []
+    for run in re.findall(r"\d+|[^\d]+", version):
+        parts.append((2, int(run), "") if run.isdigit() else ((0 if run.startswith("~") else 1), 0, run))
+    return parts
+
+
+def resolve_debian(package):
+    """The newest upstream tarball Debian keeps for a source package, read from its pool
+    directory. Debian's .orig tarballs are the upstream release as published, and stay in the
+    pool for as long as any Debian release ships the package."""
+    prefix = package[:4] if package.startswith("lib") else package[0]
+    pool = f"https://deb.debian.org/debian/pool/main/{prefix}/{package}/"
+    _, final, _, body = request(pool)
+    names = set(re.findall(
+        rf'href="({re.escape(package)}_([^"_/]+)\.orig\.tar\.(?:gz|bz2|xz|lzma))"',
+        body.decode("utf-8", "replace"),
+    ))
+    if not names:
+        return None
+    name, _ = max(names, key=lambda pair: debian_version_key(pair[1].split(":")[-1]))
+    return urllib.parse.urljoin(final, name)
+
+
 def check(catalog):
     results = {}
     for item in catalog["items"]:
@@ -123,6 +152,10 @@ def check(catalog):
                 entry["pdf_url"] = resolve_pdf(item["url"], item["fetch"]["pdf_match"])
                 if not entry["pdf_url"]:
                     entry["problem"] = "no matching PDF link on the page"
+            if item.get("fetch", {}).get("debian"):
+                entry["source_url"] = resolve_debian(item["fetch"]["debian"])
+                if not entry["source_url"]:
+                    entry["problem"] = "no upstream tarball in Debian's pool"
         except (urllib.error.URLError, OSError, ValueError) as error:
             entry.update(status=getattr(error, "code", None), problem=str(error))
         results[item["id"]] = entry
@@ -168,7 +201,8 @@ def mirror(catalog):
     for item in catalog["items"]:
         if item["hosting"] != "copy":
             continue
-        primary = links.get(item["id"], {}).get("pdf_url") if item.get("fetch") else item["url"]
+        resolved = links.get(item["id"], {})
+        primary = (resolved.get("pdf_url") or resolved.get("source_url")) if item.get("fetch") else item["url"]
         candidates = [u for u in [primary, *item.get("fallback_urls", [])] if u]
         if not candidates:
             print(f"BAD {item['id']}: no source URL (run check first)")

@@ -513,8 +513,14 @@
       "title": "GNU libcdio: portable CD access and CD image reading",
       "publisher": "GNU project",
       "url": "https://www.gnu.org/software/libcdio/",
-      "hosting": "link",
-      "license": "GPL-3.0-or-later"
+      "hosting": "copy",
+      "license": "GPL-3.0-or-later",
+      "fetch": {
+        "debian": "libcdio"
+      },
+      "fallback_urls": [
+        "https://ftp.gnu.org/gnu/libcdio/libcdio-2.1.0.tar.bz2"
+      ]
     },
     {
       "id": "cdparanoia",
@@ -522,8 +528,14 @@
       "title": "cdparanoia: accurate audio CD extraction",
       "publisher": "Xiph.Org",
       "url": "https://www.xiph.org/paranoia/",
-      "hosting": "link",
-      "license": "GPL-2.0 (library LGPL-2.1)"
+      "hosting": "copy",
+      "license": "GPL-2.0 (library LGPL-2.1)",
+      "fetch": {
+        "debian": "cdparanoia"
+      },
+      "fallback_urls": [
+        "https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz"
+      ]
     },
     {
       "id": "apple-sam-access",
@@ -745,9 +757,12 @@
       "publisher": "Gennady Kozlov",
       "url": "https://qpxtool.sourceforge.io/",
       "home": "https://sourceforge.net/p/qpxtool/code/",
-      "hosting": "link",
+      "hosting": "copy",
       "license": "GPL-2.0",
-      "notes": "The open-source way to measure disc quality: it knows the vendor commands Plextor, Lite-On, BenQ, NEC, Pioneer and ASUS drives use for error scans."
+      "notes": "The open-source way to measure disc quality: it knows the vendor commands Plextor, Lite-On, BenQ, NEC, Pioneer and ASUS drives use for error scans.",
+      "fetch": {
+        "debian": "qpxtool"
+      }
     },
     {
       "id": "sg3-utils",
@@ -755,10 +770,13 @@
       "title": "sg3_utils: send any SCSI or MMC command to a drive from the command line (sg_raw, sg_inq, sg_get_config)",
       "publisher": "Douglas Gilbert",
       "url": "https://github.com/doug-gilbert/sg3_utils",
-      "hosting": "link",
+      "hosting": "copy",
       "license": "BSD-2-Clause (some files GPL-2.0)",
       "home": "https://sg.danny.cz/sg/sg3_utils.html",
-      "notes": "The author's own site served an expired TLS certificate in November 2026; this is his GitHub repository of the same code."
+      "notes": "The author's own site served an expired TLS certificate in November 2026; this is his GitHub repository of the same code.",
+      "fetch": {
+        "debian": "sg3-utils"
+      }
     },
     {
       "id": "udftools",
@@ -766,8 +784,11 @@
       "title": "udftools: mkudffs, udfinfo and udflabel for UDF file systems",
       "publisher": "Pali Rohár and contributors",
       "url": "https://github.com/pali/udftools",
-      "hosting": "link",
-      "license": "GPL-2.0-or-later"
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later",
+      "fetch": {
+        "debian": "udftools"
+      }
     },
     {
       "id": "schilytools",
@@ -811,8 +832,11 @@
       "title": "whipper: secure audio CD ripping for Linux with AccurateRip checks",
       "publisher": "whipper team",
       "url": "https://github.com/whipper-team/whipper",
-      "hosting": "link",
-      "license": "GPL-3.0"
+      "hosting": "copy",
+      "license": "GPL-3.0",
+      "fetch": {
+        "debian": "whipper"
+      }
     },
     {
       "id": "libdvdread",
@@ -821,8 +845,14 @@
       "publisher": "VideoLAN",
       "url": "https://code.videolan.org/videolan/libdvdread",
       "home": "https://code.videolan.org/videolan/libdvdnav",
-      "hosting": "link",
-      "license": "GPL-2.0-or-later"
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later",
+      "fetch": {
+        "debian": "libdvdread"
+      },
+      "fallback_urls": [
+        "https://download.videolan.org/pub/videolan/libdvdread/6.1.3/libdvdread-6.1.3.tar.bz2"
+      ]
     },
     {
       "id": "libbluray",
@@ -830,8 +860,14 @@
       "title": "libbluray: reading Blu-ray disc structures (BDMV, playlists, clips)",
       "publisher": "VideoLAN",
       "url": "https://code.videolan.org/videolan/libbluray",
-      "hosting": "link",
-      "license": "LGPL-2.1-or-later"
+      "hosting": "copy",
+      "license": "LGPL-2.1-or-later",
+      "fetch": {
+        "debian": "libbluray"
+      },
+      "fallback_urls": [
+        "https://download.videolan.org/pub/videolan/libbluray/1.3.4/libbluray-1.3.4.tar.bz2"
+      ]
     },
     {
       "id": "cdemu",
