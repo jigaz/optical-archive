@@ -2,7 +2,7 @@
 
 **[archive.krouton.app](https://archive.krouton.app)**
 
-Everything someone would need to burn a CD, DVD or Blu-ray disc years from now, when the software that does it today is gone. That means the standards, the command sets drives speak, the file-system specifications, and the open-source programs and drivers that actually work. It's kept by the [Krouton](https://krouton.app) project.
+Everything someone would need to burn a CD, DVD or Blu-ray disc years from now, when the software that does it today is gone. That means the standards, the command sets drives speak, the file-system specifications, the open-source programs and drivers that actually work, the research on how long discs last and how to look after them, and dated notes on who still makes drives and blanks. It's kept by the [Krouton](https://krouton.app) project.
 
 ## What is kept, and what is only linked
 
@@ -11,6 +11,11 @@ Everything someone would need to burn a CD, DVD or Blu-ray disc years from now, 
 | Ecma standards: ISO 9660, CD-ROM, CD-R/RW, DVD±R/RW, DVD-RAM, archival lifetime | ✓ Ecma lets anyone republish its standards unchanged | |
 | UDF 1.02 to 2.60 (Ecma TR/112) | ✓ Ecma's alternative copyright license | |
 | Open-source burning software (libburnia, dvd+rw-tools, cdrdao) | ✓ GPL | |
+| Longevity and care studies by NIST and the Library of Congress | ✓ U.S. government works are in the public domain | |
+| dvdisaster (error correction for disc images) | ✓ GPL | |
+| Other preservation tools (QPxTool, sg3_utils, redumper, Aaru, schilytools, VideoLAN libraries) | | ✓ links to the maintained source, for now |
+| Canadian Conservation Institute notes, journal articles, vendor test summaries | | ✓ copyright reserved |
+| Community databases (AccurateRip drive offsets, Redump, MusicBrainz) and industry news | | ✓ |
 | Kernel drivers (Linux, FreeBSD), Apple's SCSI family | | ✓ (large trees; links to the canonical source) |
 | MMC (T10/INCITS) and Mt. Fuji (SNIA) | | ✓ sold, or copyright reserved |
 | Apple and Microsoft developer documentation | | ✓ copyright reserved |

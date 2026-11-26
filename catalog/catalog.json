@@ -23,6 +23,11 @@
       "about": "Test methods for estimating the life of recorded discs, and procedures for migrating data before they fail."
     },
     {
+      "id": "care",
+      "title": "Care, storage and handling",
+      "about": "How to store, handle, label and clean discs so they last, written for libraries and archives but useful to anyone with a shelf of backups."
+    },
+    {
       "id": "source",
       "title": "Open-source burning software and drivers",
       "about": "Working code that drives real burners, kept with its licenses. These are the best practical documentation of how drives actually behave."
@@ -31,6 +36,16 @@
       "id": "platform",
       "title": "Operating-system interfaces",
       "about": "How each operating system lets programs reach a drive, and the official documentation for it."
+    },
+    {
+      "id": "databases",
+      "title": "Community databases",
+      "about": "Shared records that make reading and copying discs reliable: drive read offsets, verified dumps of pressed discs, and the identifiers that look up a CD's tracks."
+    },
+    {
+      "id": "industry",
+      "title": "Who still makes drives and discs",
+      "about": "Dated news about manufacturers leaving or staying in the market. Useful for judging how long blanks and drives will be easy to buy."
     },
     {
       "id": "licensed",
@@ -584,6 +599,313 @@
       "url": "https://blu-raydisc.info/",
       "hosting": "link",
       "license": "Licensed to members."
+    },
+    {
+      "id": "nist-jres-109-517",
+      "category": "longevity",
+      "title": "Stability comparison of recordable optical discs: a study of error rates in harsh conditions (J. Res. NIST 109, 517, 2004)",
+      "publisher": "NIST (Slattery, Lu, Zheng, Byers, Tang)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/jres/109/5/j95sla.pdf",
+      "home": "https://www.nist.gov/publications/stability-comparison-recordable-optical-discs-study-error-rates-harsh-conditions?pub_id=150481",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105).",
+      "notes": "Accelerated ageing of CD-R and DVD±R under heat, humidity and light. Good discs proved very stable, but stability differed widely between manufacturers, and light exposure measurably raised error rates."
+    },
+    {
+      "id": "nist-sp-500-263",
+      "category": "longevity",
+      "title": "NIST SP 500-263: NIST/Library of Congress optical media longevity study, test procedure (2005)",
+      "publisher": "NIST (Slattery, Zheng)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-263.pdf",
+      "home": "https://www.nist.gov/publications/nistlibrary-congress-loc-optical-media-longevity-study",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105).",
+      "notes": "The procedure, based on ISO 18927, for estimating the life expectancy of CD-ROM, DVD-ROM, CD-R, DVD±R and DVD±RW, plus a shelf-life test of blank media."
+    },
+    {
+      "id": "loc-nist-final-report",
+      "category": "longevity",
+      "title": "NIST/Library of Congress optical disc longevity study: final report",
+      "publisher": "NIST and Library of Congress (Zheng, Slattery)",
+      "url": "https://loc.gov/preservation/resources/rt/NIST_LC_OpticalDiscLongevity.pdf",
+      "home": "https://loc.gov/preservation/scientists/projects/cd-r_dvd-r_rw_longevity.html",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105).",
+      "notes": "Life-expectancy estimates for recordable CDs and DVDs. The Library summarised that CDs tended to outlast DVDs, and that the discs are only as durable as the drives left to read them."
+    },
+    {
+      "id": "loc-cd-longevity",
+      "category": "longevity",
+      "title": "Longevity of CD media: research at the Library of Congress",
+      "publisher": "Library of Congress (Shahani, Manns, Youket)",
+      "url": "https://loc.gov/preservation/resources/rt/studyofCDlongevity.pdf",
+      "home": "https://loc.gov/preservation/scientists/projects/cd_longevity.html",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105).",
+      "notes": "Natural and accelerated ageing of the Library's pressed audio CDs and CD-ROMs, including the effect of adhesive labels."
+    },
+    {
+      "id": "loc-cd-service-life",
+      "category": "longevity",
+      "title": "Compact disc service life: the estimated service life of prerecorded compact discs",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf",
+      "home": "https://loc.gov/preservation/scientists/projects/cd_longevity.html",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105)."
+    },
+    {
+      "id": "loc-laser-engraving",
+      "category": "longevity",
+      "title": "The effects of laser engraving on the estimated service life of prerecorded compact discs",
+      "publisher": "Library of Congress",
+      "url": "https://loc.gov/preservation/resources/rt/LaserEngraving_rev.pdf",
+      "home": "https://loc.gov/preservation/scientists/projects/cd_longevity.html",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105)."
+    },
+    {
+      "id": "cci-notes-19-1",
+      "category": "longevity",
+      "title": "CCI Notes 19/1: Longevity of recordable CDs, DVDs and Blu-rays (revised 2019)",
+      "publisher": "Canadian Conservation Institute (Joe Iraci)",
+      "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/longevity-recordable-cds-dvds.html",
+      "hosting": "link",
+      "license": "© Government of Canada.",
+      "notes": "The most recent government summary covering BD-R as well as CD-R and DVD±R. Iraci's earlier CCI work found DVD±RW and dual-layer DVDs fair to very poor for long-term use, while DVD±R with a gold metal layer held up well and silver-layer discs degraded quickly."
+    },
+    {
+      "id": "cci-cd-formats-faq",
+      "category": "longevity",
+      "title": "CD formats and their longevity: FAQ",
+      "publisher": "Canadian Conservation Institute and Library and Archives Canada",
+      "url": "https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/cd-formats-longevity-faq.html",
+      "hosting": "link",
+      "license": "© Government of Canada."
+    },
+    {
+      "id": "iraci-2017-restaurator",
+      "category": "longevity",
+      "title": "Longevity of optical disc media: accelerated ageing predictions and natural ageing data (Restaurator, 2017)",
+      "publisher": "Joe Iraci, Canadian Conservation Institute",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/res-2016-0032/pdf",
+      "hosting": "link",
+      "license": "Journal article; publisher's terms.",
+      "notes": "Compares Arrhenius predictions with discs that aged naturally: the method held for CD-R, but its very long predictions for recordable DVDs were not borne out."
+    },
+    {
+      "id": "mdisc-china-lake",
+      "category": "longevity",
+      "title": "M-DISC: summary of the U.S. Navy (NAWCWD China Lake) longevity test",
+      "publisher": "Millenniata / Verbatim (manufacturer summary)",
+      "url": "https://www.verbatim.jp/download/products/mdisc/M-DISC_1sheet_ChinaLake_vF.pdf",
+      "hosting": "link",
+      "license": "Manufacturer's copyright.",
+      "notes": "A manufacturer's one-page summary of a Navy test comparing M-DISC DVD with dye-based DVDs, reporting no data degradation on the M-DISC samples. Treat it as a vendor document; the full report is not publicly posted."
+    },
+    {
+      "id": "nist-sp-500-252",
+      "category": "care",
+      "title": "NIST SP 500-252: Care and handling of CDs and DVDs, a guide for librarians and archivists (2003)",
+      "publisher": "NIST and the Council on Library and Information Resources (Fred R. Byers)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/NISTspecialpublication500-252.pdf",
+      "home": "https://www.nist.gov/publications/care-and-handling-cds-and-dvds-guide-librarians-and-archivists",
+      "hosting": "copy",
+      "license": "Public domain: a work of the U.S. federal government (17 U.S.C. § 105).",
+      "notes": "The standard reference on temperature, humidity, light, handling, labelling, cleaning and storage cases for optical discs."
+    },
+    {
+      "id": "cci-electronic-media-care",
+      "category": "care",
+      "title": "Electronic media collections care for small museums and archives",
+      "publisher": "Canadian Conservation Institute",
+      "url": "https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/electronic-media-collections-small-museums-archives.html",
+      "hosting": "link",
+      "license": "© Government of Canada.",
+      "notes": "Practical storage advice: standard jewel cases stored upright, labels on the case rather than the disc."
+    },
+    {
+      "id": "dvdisaster",
+      "category": "source",
+      "title": "dvdisaster 0.79.10: extra error correction for CD, DVD and BD images, and read-error scanning",
+      "publisher": "Carsten Gnörlich and contributors",
+      "url": "https://deb.debian.org/debian/pool/main/d/dvdisaster/dvdisaster_0.79.10.orig.tar.bz2",
+      "home": "https://dvdisaster.jcea.es/",
+      "hosting": "copy",
+      "license": "GPL-3.0 (earlier releases GPL-2.0)",
+      "fallback_urls": [
+        "https://dvdisaster.jcea.es/downloads/dvdisaster-0.79.10.tar.bz2"
+      ],
+      "notes": "Adds Reed-Solomon repair data to a disc image or to the disc itself, so a scratched or ageing disc can be recovered. The original site is gone; this is the last upstream release, kept by Debian and a volunteer mirror."
+    },
+    {
+      "id": "qpxtool",
+      "category": "source",
+      "title": "QPxTool: C1/C2, PI/PO and BD LDC/BIS quality scans on drives that support them",
+      "publisher": "Gennady Kozlov",
+      "url": "https://qpxtool.sourceforge.io/",
+      "home": "https://sourceforge.net/p/qpxtool/code/",
+      "hosting": "link",
+      "license": "GPL-2.0",
+      "notes": "The open-source way to measure disc quality: it knows the vendor commands Plextor, Lite-On, BenQ, NEC, Pioneer and ASUS drives use for error scans."
+    },
+    {
+      "id": "sg3-utils",
+      "category": "source",
+      "title": "sg3_utils: send any SCSI or MMC command to a drive from the command line (sg_raw, sg_inq, sg_get_config)",
+      "publisher": "Douglas Gilbert",
+      "url": "https://sg.danny.cz/sg/sg3_utils.html",
+      "hosting": "link",
+      "license": "BSD-2-Clause (some files GPL-2.0)"
+    },
+    {
+      "id": "udftools",
+      "category": "source",
+      "title": "udftools: mkudffs, udfinfo and udflabel for UDF file systems",
+      "publisher": "Pali Rohár and contributors",
+      "url": "https://github.com/pali/udftools",
+      "hosting": "link",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "schilytools",
+      "category": "source",
+      "title": "schilytools: cdrecord, cdda2wav, mkisofs and readcd, maintained after Jörg Schilling's death",
+      "publisher": "schilytools maintainers",
+      "url": "https://codeberg.org/schilytools/schilytools",
+      "hosting": "link",
+      "license": "CDDL-1.0 and GPL-2.0 (per program)"
+    },
+    {
+      "id": "redumper",
+      "category": "source",
+      "title": "redumper: low-level CD, DVD and BD dumping for preservation, including lead-in, lead-out and subchannel",
+      "publisher": "superg and contributors",
+      "url": "https://github.com/superg/redumper",
+      "hosting": "link",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "discimagecreator",
+      "category": "source",
+      "title": "DiscImageCreator: detailed disc dumping for preservation, with the drive quirks it works around",
+      "publisher": "sarami",
+      "url": "https://github.com/saramibreak/DiscImageCreator",
+      "hosting": "link",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "aaru",
+      "category": "source",
+      "title": "Aaru Data Preservation Suite: dumping, conversion and a large set of per-drive test reports",
+      "publisher": "Aaru project",
+      "url": "https://github.com/aaru-dps/Aaru",
+      "hosting": "link",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "whipper",
+      "category": "source",
+      "title": "whipper: secure audio CD ripping for Linux with AccurateRip checks",
+      "publisher": "whipper team",
+      "url": "https://github.com/whipper-team/whipper",
+      "hosting": "link",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "libdvdread",
+      "category": "source",
+      "title": "libdvdread and libdvdnav: reading DVD-Video structures",
+      "publisher": "VideoLAN",
+      "url": "https://code.videolan.org/videolan/libdvdread",
+      "home": "https://code.videolan.org/videolan/libdvdnav",
+      "hosting": "link",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "libbluray",
+      "category": "source",
+      "title": "libbluray: reading Blu-ray disc structures (BDMV, playlists, clips)",
+      "publisher": "VideoLAN",
+      "url": "https://code.videolan.org/videolan/libbluray",
+      "hosting": "link",
+      "license": "LGPL-2.1-or-later"
+    },
+    {
+      "id": "cdemu",
+      "category": "source",
+      "title": "CDEmu: emulates optical drives on Linux, for testing burning software without hardware",
+      "publisher": "CDEmu project",
+      "url": "https://cdemu.sourceforge.io/",
+      "hosting": "link",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "apple-discrecording",
+      "category": "platform",
+      "title": "Apple: Disc Recording framework reference",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/documentation/discrecording",
+      "hosting": "link",
+      "license": "Apple copyright.",
+      "notes": "The framework macOS apps, Krouton included, use to burn today. Not available on iPadOS."
+    },
+    {
+      "id": "linux-cdrom-ioctl",
+      "category": "platform",
+      "title": "Linux: the CD-ROM ioctl interface",
+      "publisher": "Linux kernel documentation",
+      "url": "https://www.kernel.org/doc/html/latest/userspace-api/ioctl/cdrom.html",
+      "hosting": "link",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "accuraterip-drive-offsets",
+      "category": "databases",
+      "title": "AccurateRip: CD drive read offsets",
+      "publisher": "Illustrate (dBpoweramp)",
+      "url": "https://www.accuraterip.com/driveoffsets.htm",
+      "hosting": "link",
+      "license": "Illustrate copyright.",
+      "notes": "The read offset for thousands of drive models, which a ripper must correct to produce bit-identical audio."
+    },
+    {
+      "id": "musicbrainz-discid",
+      "category": "databases",
+      "title": "MusicBrainz: how a CD's Disc ID is calculated",
+      "publisher": "MetaBrainz Foundation",
+      "url": "https://musicbrainz.org/doc/Disc_ID_Calculation",
+      "hosting": "link",
+      "license": "CC BY-NC-SA (documentation)."
+    },
+    {
+      "id": "redump",
+      "category": "databases",
+      "title": "Redump: verified dumps of pressed game and software discs",
+      "publisher": "Redump project",
+      "url": "https://redump.org/",
+      "hosting": "link",
+      "license": "Database terms on the site."
+    },
+    {
+      "id": "sony-bd-r-end-2025",
+      "category": "industry",
+      "title": "Sony ends production of recordable Blu-ray, MiniDisc and MiniDV media (announced 23 January 2025)",
+      "publisher": "Sony Japan",
+      "url": "https://www.sony.jp/rec-media/info2/20250123.html",
+      "hosting": "link",
+      "license": "Sony copyright.",
+      "notes": "Production of all models ended in February 2025, with no successor. Consumer BD-R production had already stopped in mid-2024."
+    },
+    {
+      "id": "blocksandfiles-sony-2025",
+      "category": "industry",
+      "title": "Blocks and Files: Sony quits the recordable Blu-ray disc market (3 February 2025)",
+      "publisher": "Blocks and Files",
+      "url": "https://blocksandfiles.com/2025/02/03/sony-ends-the-production-of-recordable-blu-ray-discs-for-business",
+      "hosting": "link",
+      "license": "Publisher's copyright.",
+      "notes": "Reports that Panasonic and Verbatim were still making recordable optical discs at the time."
     }
   ]
 }
