@@ -1,0 +1,18 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate the catalog
+        run: python3 tools/archive.py validate
+      - name: The site matches the catalog
+        run: python3 tools/archive.py site --check

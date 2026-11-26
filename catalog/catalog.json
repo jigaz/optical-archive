@@ -1,0 +1,584 @@
+{
+  "schema": 1,
+  "about": "Every item the optical-disc archive tracks. hosting=copy: we keep a verbatim copy (license permits it); hosting=link: we only link to it and ask the Wayback Machine to snapshot it. tools/archive.py checks, mirrors and renders this file.",
+  "categories": [
+    {
+      "id": "drive-commands",
+      "title": "Talking to drives",
+      "about": "The command sets software sends to CD, DVD and Blu-ray drives over SCSI, ATAPI, SATA and USB. MMC is the standard; the Mt. Fuji specification is the industry document it grew out of."
+    },
+    {
+      "id": "file-systems",
+      "title": "File systems on discs",
+      "about": "How files are laid out on a disc: ISO 9660 (with Joliet and Rock Ridge extensions) and UDF."
+    },
+    {
+      "id": "media",
+      "title": "Physical disc formats",
+      "about": "What the disc itself is: track geometry, modulation, error correction and recording layers for CD, DVD and their recordable kinds."
+    },
+    {
+      "id": "longevity",
+      "title": "How long discs last",
+      "about": "Test methods for estimating the life of recorded discs, and procedures for migrating data before they fail."
+    },
+    {
+      "id": "source",
+      "title": "Open-source burning software and drivers",
+      "about": "Working code that drives real burners, kept with its licenses. These are the best practical documentation of how drives actually behave."
+    },
+    {
+      "id": "platform",
+      "title": "Operating-system interfaces",
+      "about": "How each operating system lets programs reach a drive, and the official documentation for it."
+    },
+    {
+      "id": "licensed",
+      "title": "Licensed and paid specifications",
+      "about": "Specifications that can only be bought or licensed. We record what they are and where to get them, and keep no copies."
+    }
+  ],
+  "items": [
+    {
+      "id": "ecma-119",
+      "category": "file-systems",
+      "title": "ECMA-119: Volume and file structure of CD-ROM for information interchange",
+      "aka": "ISO 9660",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-119/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-119"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-167",
+      "category": "file-systems",
+      "title": "ECMA-167: Volume and file structure for write-once and rewritable media using non-sequential recording",
+      "aka": "ISO/IEC 13346, the base of UDF",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-167/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-167"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-168",
+      "category": "file-systems",
+      "title": "ECMA-168: Volume and file structure of read-only and write-once compact disk media",
+      "aka": "ISO/IEC 13490",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-168/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-168"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-tr-112-1",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 1: Universal Disk Format (UDF) specification, general",
+      "publisher": "Ecma International (UDF copyright transferred from OSTA in 2022)",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-1_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-2",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 2: UDF revision 2.60",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-3",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 3: UDF revision 2.50",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-3_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-4",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 4: UDF revision 2.01",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-4_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-5",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 5: UDF revision 2.00",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-5_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-6",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 6: UDF revision 1.50",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-6_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-7",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 7: UDF revision 1.02",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-7_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-tr-112-8",
+      "category": "file-systems",
+      "title": "ECMA TR/112 Part 8: Secure UDF revision 1.00",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-8_1st_edition_december_2023.pdf",
+      "hosting": "copy",
+      "license": "Ecma alternative copyright license: free; may be republished, and implemented from."
+    },
+    {
+      "id": "ecma-130",
+      "category": "media",
+      "title": "ECMA-130: Data interchange on read-only 120 mm optical data disks (CD-ROM)",
+      "aka": "Yellow Book",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-130/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-130"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-394",
+      "category": "media",
+      "title": "ECMA-394: Recordable compact disc systems, CD-R multi-speed",
+      "aka": "Orange Book Part II",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-394/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-394"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-395",
+      "category": "media",
+      "title": "ECMA-395: Recordable compact disc systems, CD-RW ultra-speed",
+      "aka": "Orange Book Part III",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-395/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-395"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-267",
+      "category": "media",
+      "title": "ECMA-267: 120 mm DVD, read-only disk",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-267/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-267"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-268",
+      "category": "media",
+      "title": "ECMA-268: 80 mm DVD, read-only disk",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-268/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-268"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-359",
+      "category": "media",
+      "title": "ECMA-359: 80 mm and 120 mm DVD recordable disk (DVD-R), 4.70 Gbytes per side",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-359/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-359"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-382",
+      "category": "media",
+      "title": "ECMA-382: DVD recordable disk for dual layer (DVD-R for DL)",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-382/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-382"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-384",
+      "category": "media",
+      "title": "ECMA-384: DVD re-recordable disk for dual layer (DVD-RW for DL)",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-384/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-384"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-349",
+      "category": "media",
+      "title": "ECMA-349: 120 mm and 80 mm optical disk using +R format",
+      "aka": "DVD+R",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-349/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-349"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-364",
+      "category": "media",
+      "title": "ECMA-364: 120 mm and 80 mm optical disk using +R DL format",
+      "aka": "DVD+R DL",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-364/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-364"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-337",
+      "category": "media",
+      "title": "ECMA-337: 120 mm and 80 mm optical disk using +RW format",
+      "aka": "DVD+RW",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-337/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-337"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-374",
+      "category": "media",
+      "title": "ECMA-374: 120 mm and 80 mm optical disk using +RW DL format",
+      "aka": "DVD+RW DL",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-374/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-374"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-330",
+      "category": "media",
+      "title": "ECMA-330: 120 mm and 80 mm DVD rewritable disk (DVD-RAM)",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-330/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-330"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-379",
+      "category": "longevity",
+      "title": "ECMA-379: Test method for the estimation of the archival lifetime of optical media",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-379/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-379"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-396",
+      "category": "longevity",
+      "title": "ECMA-396: Test method for the estimation of lifetime of optical disks for long-term data storage",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-396/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-396"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-413",
+      "category": "longevity",
+      "title": "ECMA-413: Data migration method for BD recordable and BD rewritable disks",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-413/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-413"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "ecma-421",
+      "category": "longevity",
+      "title": "ECMA-421: Quality discrimination method for optical disks and operating method of storage systems for long-term data preservation",
+      "publisher": "Ecma International",
+      "url": "https://ecma-international.org/publications-and-standards/standards/ecma-421/",
+      "hosting": "copy",
+      "fetch": {
+        "pdf_match": "ECMA-421"
+      },
+      "license": "Ecma text copyright policy: free of charge; may be republished unchanged."
+    },
+    {
+      "id": "snia-inf-ta-1010",
+      "category": "drive-commands",
+      "title": "SNIA INF-TA-1010: Mt. Fuji Commands for Multimedia Devices",
+      "aka": "successor of SFF INF-8090, the Mt. Fuji specification",
+      "publisher": "SNIA SFF TA TWG",
+      "url": "https://www.snia.org/sff/specifications",
+      "hosting": "link",
+      "license": "Published free of charge by SNIA; SNIA copyright, all rights reserved, so we link rather than copy.",
+      "notes": "The drive-maker industry document that MMC was built from. It covers BD, DVD and CD recording commands and is the freely available alternative to buying MMC."
+    },
+    {
+      "id": "t10-mmc-pubs",
+      "category": "drive-commands",
+      "title": "T10: how to get the MMC standards (MMC-2 to MMC-6)",
+      "aka": "INCITS 333, 360, 430, 468",
+      "publisher": "INCITS T10 technical committee",
+      "url": "https://www.t10.org/pubs.htm",
+      "hosting": "link",
+      "license": "Approved standards are sold by INCITS/ANSI; final working drafts are restricted to T10 members.",
+      "notes": "MMC-6 (INCITS 468-2010) and its amendment are the current standards."
+    },
+    {
+      "id": "t10-drafts",
+      "category": "drive-commands",
+      "title": "T10 working drafts",
+      "publisher": "INCITS T10 technical committee",
+      "url": "https://t10.org/drafts.htm",
+      "hosting": "link",
+      "license": "Public until a standard is approved, then members only."
+    },
+    {
+      "id": "mmc-3-r10g",
+      "category": "drive-commands",
+      "title": "SCSI Multimedia Commands 3 (MMC-3), draft revision 10g, 2001",
+      "publisher": "INCITS T10 (preserved by the Internet Archive)",
+      "url": "https://ia802909.us.archive.org/35/items/mmc3r10g/mmc3r10g.pdf",
+      "hosting": "link",
+      "license": "A public working draft from 2001; copyright stays with INCITS, so we link rather than copy."
+    },
+    {
+      "id": "libburn",
+      "category": "source",
+      "title": "libburn 1.5.6: writes CD, DVD and BD (libburnia project)",
+      "publisher": "libburnia project",
+      "url": "https://files.libburnia-project.org/releases/libburn-1.5.6.tar.gz",
+      "home": "https://dev.lovelyhq.com/libburnia/libburn",
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "libisofs",
+      "category": "source",
+      "title": "libisofs 1.5.6.pl01: builds ISO 9660 images with Rock Ridge, Joliet and El Torito",
+      "publisher": "libburnia project",
+      "url": "https://files.libburnia-project.org/releases/libisofs-1.5.6.pl01.tar.gz",
+      "home": "https://dev.lovelyhq.com/libburnia/libisofs",
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "libisoburn",
+      "category": "source",
+      "title": "libisoburn 1.5.6 and xorriso: the tool Krouton Server uses on Linux",
+      "publisher": "libburnia project",
+      "url": "https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz",
+      "home": "https://dev.lovelyhq.com/libburnia/libisoburn",
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later (xorriso binaries GPL-3.0-or-later)"
+    },
+    {
+      "id": "dvd-rw-tools",
+      "category": "source",
+      "title": "dvd+rw-tools 7.1 (growisofs): DVD and Blu-ray writing",
+      "publisher": "Andy Polyakov",
+      "url": "https://fy.chalmers.se/~appro/linux/DVD+RW/tools/dvd+rw-tools-7.1.tar.gz",
+      "home": "https://fy.chalmers.se/~appro/linux/DVD+RW/",
+      "hosting": "copy",
+      "license": "GPL-2.0",
+      "notes": "Last released in 2008 on a university server; exactly the kind of source this archive exists to keep."
+    },
+    {
+      "id": "cdrdao",
+      "category": "source",
+      "title": "cdrdao 1.2.6: disc-at-once CD writing, audio and bin/cue",
+      "publisher": "cdrdao project",
+      "url": "https://github.com/cdrdao/cdrdao/archive/refs/tags/rel_1_2_6.tar.gz",
+      "home": "https://github.com/cdrdao/cdrdao",
+      "hosting": "copy",
+      "license": "GPL-2.0-or-later"
+    },
+    {
+      "id": "linux-sr",
+      "category": "source",
+      "title": "Linux kernel SCSI CD-ROM driver (drivers/scsi/sr.c)",
+      "publisher": "Linux kernel",
+      "url": "https://github.com/torvalds/linux/blob/master/drivers/scsi/sr.c",
+      "hosting": "link",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "linux-cdrom",
+      "category": "source",
+      "title": "Linux kernel Uniform CD-ROM layer (drivers/cdrom/cdrom.c)",
+      "publisher": "Linux kernel",
+      "url": "https://github.com/torvalds/linux/blob/master/drivers/cdrom/cdrom.c",
+      "hosting": "link",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "freebsd-scsi-cd",
+      "category": "source",
+      "title": "FreeBSD CAM CD driver (sys/cam/scsi/scsi_cd.c)",
+      "publisher": "FreeBSD project",
+      "url": "https://github.com/freebsd/freebsd-src/blob/main/sys/cam/scsi/scsi_cd.c",
+      "hosting": "link",
+      "license": "BSD"
+    },
+    {
+      "id": "apple-scsi-family",
+      "category": "source",
+      "title": "Apple IOSCSIArchitectureModelFamily 137.3.5, including IOSCSIMultimediaCommands (the macOS optical drive driver)",
+      "publisher": "Apple (open source)",
+      "url": "https://opensource.apple.com/source/IOSCSIArchitectureModelFamily/IOSCSIArchitectureModelFamily-137.3.5/",
+      "hosting": "link",
+      "license": "Apple Public Source License 2.0, which permits redistribution; a mirrored copy is planned."
+    },
+    {
+      "id": "libcdio",
+      "category": "source",
+      "title": "GNU libcdio: portable CD access and CD image reading",
+      "publisher": "GNU project",
+      "url": "https://www.gnu.org/software/libcdio/",
+      "hosting": "link",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "cdparanoia",
+      "category": "source",
+      "title": "cdparanoia: accurate audio CD extraction",
+      "publisher": "Xiph.Org",
+      "url": "https://www.xiph.org/paranoia/",
+      "hosting": "link",
+      "license": "GPL-2.0 (library LGPL-2.1)"
+    },
+    {
+      "id": "apple-sam-access",
+      "category": "platform",
+      "title": "Apple: Accessing SCSI Architecture Model devices (exclusive and authoring access from user space)",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/WorkingWithSAM/WWS_SAMDevInt/WWS_SAM_DevInt.html",
+      "hosting": "link",
+      "license": "Apple copyright."
+    },
+    {
+      "id": "apple-stuc-sample",
+      "category": "platform",
+      "title": "Apple sample code: STUCAuthoringDeviceCocoaSample",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceCocoaSample/Listings/MyDocument_m.html",
+      "hosting": "link",
+      "license": "Apple sample code license."
+    },
+    {
+      "id": "apple-stuc-tool",
+      "category": "platform",
+      "title": "Apple sample code: STUCAuthoringDeviceTool",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceTool/Listings/STUCAuthoringDeviceTool_c.html",
+      "hosting": "link",
+      "license": "Apple sample code license."
+    },
+    {
+      "id": "apple-driverkit-ipad",
+      "category": "platform",
+      "title": "Apple: Creating drivers for iPadOS (DriverKit on M-series iPads)",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/documentation/driverkit/creating-drivers-for-ipados",
+      "hosting": "link",
+      "license": "Apple copyright."
+    },
+    {
+      "id": "microsoft-imapi",
+      "category": "platform",
+      "title": "Microsoft: Image Mastering API (IMAPI) documentation",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/imapi/portal",
+      "hosting": "link",
+      "license": "Microsoft copyright."
+    },
+    {
+      "id": "iec-60908",
+      "category": "licensed",
+      "title": "IEC 60908: Audio recording, compact disc digital audio system",
+      "aka": "Red Book",
+      "publisher": "IEC",
+      "url": "https://webstore.iec.ch/",
+      "hosting": "link",
+      "license": "Sold by the IEC.",
+      "notes": "Search the IEC webstore for 60908."
+    },
+    {
+      "id": "dvd-books",
+      "category": "licensed",
+      "title": "DVD Books (DVD-Video, DVD-R, DVD-RW and others)",
+      "publisher": "DVD Format/Logo Licensing Corporation",
+      "url": "https://www.dvdfllc.co.jp/",
+      "hosting": "link",
+      "license": "Licensed to members."
+    },
+    {
+      "id": "bda-specs",
+      "category": "licensed",
+      "title": "Blu-ray Disc specifications",
+      "publisher": "Blu-ray Disc Association",
+      "url": "https://blu-raydisc.info/",
+      "hosting": "link",
+      "license": "Licensed to members."
+    }
+  ]
+}

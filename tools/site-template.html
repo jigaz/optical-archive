@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The optical-disc archive — specifications, drivers and burning software, kept</title>
+<meta name="description" content="Specifications, drive command sets and open-source burning software for CD, DVD and Blu-ray, with verbatim copies of everything we may redistribute and links to the rest.">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="icon" href="/assets/disc.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="site">
+  <header class="masthead">
+    <a class="name" href="/">The optical-disc archive</a>
+    <nav aria-label="Site">
+      <a href="#drive-commands">Commands</a>
+      <a href="#file-systems">File systems</a>
+      <a href="#media">Media</a>
+      <a href="#source">Source code</a>
+      <a href="https://github.com/jigaz/optical-archive">Contribute</a>
+      <a href="https://krouton.app/">Krouton</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">How to burn a disc, kept for whoever needs it next.</h1>
+    <p class="lede">Standards, drive command sets, file-system specifications and open-source burning software for CD, DVD and Blu-ray. When a document’s license lets us, we keep a verbatim copy with its checksum. When it doesn’t, we link to the original and ask the Internet Archive to snapshot it.</p>
+    <p>This archive tracks {{COUNT}} items, {{KEPT}} of which may be copied. A monthly job re-checks every link, downloads fresh copies, records any that changed, and publishes them as a <a href="https://github.com/jigaz/optical-archive/releases">release</a>.</p>
+
+    <h2>Reading the tables</h2>
+    <dl>
+      <dt><span class="kept">Copy kept here</span></dt>
+      <dd>A verbatim copy from our latest mirror, with the first digits of its SHA-256 checksum. The full sums are in each release’s SHA256SUMS file.</dd>
+      <dt><span class="linked">Link only</span></dt>
+      <dd>The license doesn’t allow copies, so we link to the publisher and to a Wayback Machine snapshot.</dd>
+    </dl>
+
+{{SECTIONS}}
+
+    <h2 id="drives">Drives</h2>
+    <p>The behaviour of real drives (which discs they write, at what speeds, and what goes wrong) isn’t written down anywhere. We’re collecting it as open data in <a href="https://github.com/jigaz/optical-archive/tree/main/drives">drives/</a>. To add yours, follow <a href="https://krouton.app/drives/">Report a drive</a>.</p>
+
+    <h2 id="missing">Something missing?</h2>
+    <p>Open an issue or a pull request on <a href="https://github.com/jigaz/optical-archive">GitHub</a> with the document, where it’s published, and its license. Copies are only kept when the license clearly allows it.</p>
+  </main>
+
+  <footer class="colophon">
+    <p>Kept by the <a href="https://krouton.app/">Krouton</a> project. The catalog and drive data are dedicated to the public domain (CC0); every document and program keeps its own license.</p>
+    <p>This site sets no cookies and loads nothing from anyone else.</p>
+  </footer>
+</div>
+</body>
+</html>

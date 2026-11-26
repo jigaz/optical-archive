@@ -1,0 +1,145 @@
+/* krouton.app and archive.krouton.app share this file (keep the two copies identical).
+   Colours come from recordable-disc dyes on polycarbonate; fonts are the system's own,
+   so the site makes no third-party requests and keeps working as long as browsers do. */
+
+:root {
+  --polycarbonate: #eef0f2;
+  --ink: #13233a;
+  --ink-soft: #46566b;
+  --azo: #23439c;
+  --phthalo: #c9a227;
+  --cyanine: #3a9e9a;
+  --hairline: #c4cbd3;
+  --paper: #f8f9fa;
+  --measure: 66ch;
+  --head: "Avenir Next", "Avenir", "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", sans-serif;
+  --body: Charter, "Iowan Old Style", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --polycarbonate: #151d29;
+    --ink: #e4e8ee;
+    --ink-soft: #a3afbf;
+    --azo: #8fa9f0;
+    --hairline: #33404f;
+    --paper: #1b2533;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--polycarbonate); }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font: 1.0625rem/1.62 var(--body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--azo); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--phthalo); outline-offset: 3px; border-radius: 2px; }
+
+h1, h2, h3 {
+  font-family: var(--head);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+h1 { font-size: clamp(2.1rem, 5.2vw, 3.4rem); max-width: 16ch; }
+h2 { font-size: 1.55rem; margin-top: 3.2rem; }
+h3 { font-size: 1.12rem; margin-top: 1.9rem; }
+p, ul, ol, dl, table, pre { margin: 0.9rem 0 0; max-width: var(--measure); }
+li + li { margin-top: 0.35rem; }
+code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.88em; }
+pre { background: var(--paper); border: 1px solid var(--hairline); padding: 0.9rem 1rem; overflow-x: auto; line-height: 1.5; }
+
+/* ---- Frame ------------------------------------------------------------- */
+
+.site { max-width: 70rem; margin: 0 auto; padding: 0 clamp(1.1rem, 4vw, 2.5rem) 4rem; }
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1.6rem;
+  padding: 1.4rem 0 1.2rem;
+  border-bottom: 1px solid var(--hairline);
+  font-family: var(--head);
+}
+.masthead .name { font-weight: 600; font-size: 1.15rem; color: var(--ink); text-decoration: none; margin-right: auto; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.3rem; font-size: 0.98rem; }
+.masthead nav a { color: var(--ink-soft); text-decoration: none; }
+.masthead nav a:hover, .masthead nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+
+footer.colophon {
+  margin-top: 4.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--hairline);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+footer.colophon p { margin-top: 0.4rem; }
+
+/* ---- The disc (the one bold element) ------------------------------------ */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 25rem);
+  align-items: center;
+  gap: 2rem 3.5rem;
+  padding: clamp(2.2rem, 6vw, 4.5rem) 0 1rem;
+}
+.lede { font-size: 1.2rem; color: var(--ink-soft); margin-top: 1.2rem; max-width: 52ch; }
+.hero .lede { font-size: 1.22rem; max-width: 46ch; }
+.page-title { margin-top: 2.6rem; }
+.disc { width: 100%; height: auto; display: block; }
+.disc .burn { animation: burn 2.6s cubic-bezier(0.3, 0.1, 0.25, 1) 0.2s both; transform-origin: 50% 50%; }
+@keyframes burn { from { r: 62px; } to { r: 158px; } }
+@media (prefers-reduced-motion: reduce) { .disc .burn { animation: none; } }
+@media (max-width: 46rem) {
+  .hero { grid-template-columns: 1fr; }
+  .disc { max-width: 14rem; }
+}
+
+/* ---- Content pieces ----------------------------------------------------- */
+
+.status {
+  display: inline-block;
+  margin-top: 1.4rem;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--cyanine);
+  border-radius: 0.7rem;
+  color: var(--ink);
+  font-family: var(--head);
+  font-size: 0.9rem;
+}
+
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.6rem 3rem; max-width: 58rem; margin-top: 1.4rem; }
+@media (max-width: 40rem) { .facts { grid-template-columns: 1fr; } }
+.facts h3 { margin-top: 0; }
+.facts p { margin-top: 0.4rem; }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.98rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.55rem 1rem 0.55rem 0; border-bottom: 1px solid var(--hairline); }
+th { font-family: var(--head); font-weight: 600; font-size: 0.92rem; color: var(--ink-soft); }
+.wide { max-width: none; }
+.catalog { table-layout: fixed; }
+.catalog th:nth-child(1) { width: 47%; }
+.catalog th:nth-child(2) { width: 33%; }
+@media (max-width: 40rem) { .catalog { table-layout: auto; } }
+
+.kept, .linked { font-family: var(--head); font-size: 0.86rem; white-space: nowrap; }
+.kept { color: var(--cyanine); }
+.linked { color: var(--ink-soft); }
+
+.note { color: var(--ink-soft); font-size: 0.95rem; }
+
+dl { max-width: var(--measure); }
+dt { margin-top: 0.9rem; }
+dd { margin: 0.2rem 0 0; }

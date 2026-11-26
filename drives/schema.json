@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://archive.krouton.app/drives/schema.json",
+  "title": "Optical drive report",
+  "description": "One burn (or attempted burn) on one drive. File name: drives/reports/<vendor>-<model>/<yyyy-mm-dd>-<short-id>.json. Everything here is published as CC0; leave out anything personal.",
+  "type": "object",
+  "required": ["schema", "drive", "connection", "media", "outcome"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"const": 1},
+    "drive": {
+      "type": "object",
+      "required": ["vendor", "model"],
+      "additionalProperties": false,
+      "properties": {
+        "vendor": {"type": "string", "description": "INQUIRY vendor identification, trimmed (e.g. PIONEER)."},
+        "model": {"type": "string", "description": "INQUIRY product identification, trimmed (e.g. BD-RW BDR-XD08)."},
+        "firmware": {"type": "string", "description": "INQUIRY product revision level."},
+        "profiles": {"type": "array", "items": {"type": "string"}, "description": "Media profiles the drive reports in GET CONFIGURATION (e.g. CD-R, DVD+R DL, BD-R SRM)."}
+      }
+    },
+    "connection": {
+      "type": "object",
+      "required": ["bus"],
+      "additionalProperties": false,
+      "properties": {
+        "bus": {"enum": ["internal-sata", "internal-atapi", "usb", "thunderbolt", "firewire", "scsi", "other"]},
+        "host": {"type": "string", "description": "Operating system and machine, e.g. macOS 26 on a Mac mini M4, or Raspberry Pi OS on a Pi 5."},
+        "via": {"enum": ["local", "krouton-server"], "description": "Burned on the computer itself or through Krouton Server."},
+        "backend": {"type": "string", "description": "What drove the burner: DiscRecording, hdiutil, xorriso, IMAPI2, direct MMC."}
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"type": "string", "description": "Disc type as the drive reports it (e.g. DVD+R, BD-R)."},
+        "brand": {"type": "string", "description": "Brand on the packaging."},
+        "media_id": {"type": "string", "description": "Manufacturer ID read from the disc (ATIP for CD, MID for DVD and BD)."},
+        "rated_speed": {"type": "string", "description": "Speed printed on the packaging, e.g. 16x."}
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "required": ["result"],
+      "additionalProperties": false,
+      "properties": {
+        "result": {"enum": ["burned-and-verified", "burned-not-verified", "verify-failed", "write-failed", "not-recognized"]},
+        "requested_speed": {"type": "string"},
+        "achieved_speed_x": {"type": "number"},
+        "image_bytes": {"type": "integer", "minimum": 0},
+        "sense": {"type": "string", "description": "SCSI sense key/ASC/ASCQ on failure, e.g. 3/0C/00."},
+        "notes": {"type": "string"}
+      }
+    },
+    "reported": {"type": "string", "format": "date", "description": "When the burn happened (date only)."},
+    "tool": {"type": "string", "description": "Software and version that wrote the report, e.g. Krouton 1.0."}
+  }
+}

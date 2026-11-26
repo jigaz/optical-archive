@@ -1,0 +1,49 @@
+name: Mirror
+
+# Monthly: re-check every link, download every item we may copy, publish them as a release with
+# SHA-256 sums, ask the Wayback Machine to snapshot everything, and commit state/ and the site.
+on:
+  schedule:
+    - cron: "23 10 3 * *"
+  workflow_dispatch:
+    inputs:
+      wayback:
+        description: Also request Wayback Machine snapshots (about half an hour)
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every link
+        run: python3 tools/archive.py check
+      - name: Download the copies
+        run: python3 tools/archive.py mirror
+      - name: Publish the copies as a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="mirror-$(date -u +%Y-%m-%d)"
+          if gh release view "$tag" >/dev/null 2>&1; then tag="$tag-$(date -u +%H%M)"; fi
+          gh release create "$tag" dist/* --title "Mirror $(date -u +%Y-%m-%d)" --notes-file dist/NOTES.md --latest
+      - name: Ask the Wayback Machine for snapshots
+        if: github.event_name == 'schedule' || inputs.wayback
+        run: python3 tools/archive.py wayback
+      - name: Render the site
+        run: python3 tools/archive.py site
+      - name: Commit state and site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state docs
+          git diff --cached --quiet || { git commit -m "Mirror $(date -u +%Y-%m-%d): links, checksums, snapshots"; git push; }
