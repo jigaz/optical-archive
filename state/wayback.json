@@ -1,4 +1,9 @@
 {
+  "cdparanoia": {
+    "saved": "2026-11-26T03:59:14Z",
+    "snapshot": "https://web.archive.org/web/20261126015600/https://www.xiph.org/paranoia/",
+    "url": "https://www.xiph.org/paranoia/"
+  },
   "ecma-119": {
     "saved": "2026-11-26T01:15:55Z",
     "snapshot": "https://web.archive.org/web/20261126001838/https://ecma-international.org/publications-and-standards/standards/ecma-119/",
@@ -8,6 +13,11 @@
     "saved": "2026-11-26T01:18:08Z",
     "snapshot": "https://web.archive.org/web/20261126002344/https://ecma-international.org/publications-and-standards/standards/ecma-168/",
     "url": "https://ecma-international.org/publications-and-standards/standards/ecma-168/"
+  },
+  "ecma-337": {
+    "saved": "2026-11-26T03:44:35Z",
+    "snapshot": "https://web.archive.org/web/20261126034415/https://ecma-international.org/publications-and-standards/standards/ecma-337/",
+    "url": "https://ecma-international.org/publications-and-standards/standards/ecma-337/"
   },
   "ecma-364": {
     "saved": "2026-11-26T01:37:05Z",
@@ -29,15 +39,30 @@
     "snapshot": "https://web.archive.org/web/20261106162308/https://ecma-international.org/wp-content/uploads/ECMA-382_2nd_edition_june_2010.pdf",
     "url": "https://ecma-international.org/wp-content/uploads/ECMA-382_2nd_edition_june_2010.pdf"
   },
+  "ecma-384:pdf": {
+    "saved": "2026-11-26T03:41:54Z",
+    "snapshot": "https://web.archive.org/web/20261126034148/https://ecma-international.org/wp-content/uploads/ECMA-384_1st_edition_december_2008.pdf",
+    "url": "https://ecma-international.org/wp-content/uploads/ECMA-384_1st_edition_december_2008.pdf"
+  },
   "ecma-395": {
     "saved": "2026-11-26T01:27:17Z",
     "snapshot": "https://web.archive.org/web/20261126012657/https://ecma-international.org/publications-and-standards/standards/ecma-395/",
     "url": "https://ecma-international.org/publications-and-standards/standards/ecma-395/"
   },
+  "ecma-396:pdf": {
+    "saved": "2026-11-26T03:49:13Z",
+    "snapshot": "https://web.archive.org/web/20261126034907/https://ecma-international.org/wp-content/uploads/ECMA-396_4th_edition_june_2017.pdf",
+    "url": "https://ecma-international.org/wp-content/uploads/ECMA-396_4th_edition_june_2017.pdf"
+  },
   "ecma-413:pdf": {
     "saved": "2026-11-26T01:45:12Z",
     "snapshot": "https://web.archive.org/web/20261126005841/https://ecma-international.org/wp-content/uploads/ECMA-413_4th_edition_june_2022.pdf",
     "url": "https://ecma-international.org/wp-content/uploads/ECMA-413_4th_edition_june_2022.pdf"
+  },
+  "ecma-tr-112-2": {
+    "saved": "2026-11-26T03:29:23Z",
+    "snapshot": "https://web.archive.org/web/20260608043742/https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf",
+    "url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-3": {
     "saved": "2026-11-26T01:20:22Z",
@@ -54,6 +79,16 @@
     "snapshot": "https://web.archive.org/web/20261126010703/https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz",
     "url": "https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz"
   },
+  "loc-cd-service-life": {
+    "saved": "2026-11-26T04:08:17Z",
+    "snapshot": "https://web.archive.org/web/20261126040811/https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf",
+    "url": "https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf"
+  },
+  "mdisc-china-lake": {
+    "saved": "2026-11-26T04:11:41Z",
+    "snapshot": "https://web.archive.org/web/20260529090737/https://www.verbatim.jp/download/products/mdisc/M-DISC_1sheet_ChinaLake_vF.pdf",
+    "url": "https://www.verbatim.jp/download/products/mdisc/M-DISC_1sheet_ChinaLake_vF.pdf"
+  },
   "microsoft-imapi": {
     "saved": "2026-11-26T01:59:40Z",
     "snapshot": "https://web.archive.org/web/20261126015925/https://learn.microsoft.com/en-us/windows/win32/imapi/portal",
@@ -63,5 +98,10 @@
     "saved": "2026-11-26T01:48:32Z",
     "snapshot": "https://web.archive.org/web/20261104190117/https://www.t10.org/drafts.htm",
     "url": "https://t10.org/drafts.htm"
+  },
+  "t10-mmc-pubs": {
+    "saved": "2026-11-26T03:52:50Z",
+    "snapshot": "https://web.archive.org/web/20261126035233/https://www.t10.org/pubs.htm",
+    "url": "https://www.t10.org/pubs.htm"
   }
 }
