@@ -1,289 +1,345 @@
 {
+  "cdparanoia": {
+    "asset": "cdparanoia--cdparanoia_3.10.2+debian.orig.tar.gz",
+    "bytes": 178436,
+    "fetched": "2026-11-26T12:42:14Z",
+    "sha256": "402f8b8b4370dbdc276dfd624f768956d212893542a91ecbaa6b4206b2afef03",
+    "source": "https://deb.debian.org/debian/pool/main/c/cdparanoia/cdparanoia_3.10.2+debian.orig.tar.gz"
+  },
   "cdrdao": {
     "asset": "cdrdao--rel_1_2_6.tar.gz",
     "bytes": 856060,
-    "fetched": "2026-11-26T04:33:40Z",
+    "fetched": "2026-11-26T12:42:12Z",
     "sha256": "ba3eadcae7b62a709e9e23988d7fb41f822c408dcec9bd99ff1a343d1bcbc524",
     "source": "https://github.com/cdrdao/cdrdao/archive/refs/tags/rel_1_2_6.tar.gz"
   },
   "dvd-rw-tools": {
     "asset": "dvd-rw-tools--dvd+rw-tools_7.1.orig.tar.gz",
     "bytes": 140846,
-    "fetched": "2026-11-26T04:33:39Z",
+    "fetched": "2026-11-26T12:42:10Z",
     "sha256": "f8d60f822e914128bcbc5f64fbe3ed131cbff9045dca7e12c5b77b26edde72ca",
     "source": "https://deb.debian.org/debian/pool/main/d/dvd+rw-tools/dvd+rw-tools_7.1.orig.tar.gz"
   },
   "dvdisaster": {
     "asset": "dvdisaster--dvdisaster_0.79.10.orig.tar.bz2",
     "bytes": 8173816,
-    "fetched": "2026-11-26T04:33:50Z",
+    "fetched": "2026-11-26T12:42:23Z",
     "sha256": "dd0a9ff62f1a48bf73dae26f9bc3ff40e3e9f379ce0c2ddfc8b2f58812207fe8",
     "source": "https://deb.debian.org/debian/pool/main/d/dvdisaster/dvdisaster_0.79.10.orig.tar.bz2"
   },
   "ecma-119": {
     "asset": "ecma-119--ECMA-119_6th_edition_december_2025.pdf",
     "bytes": 1029330,
-    "fetched": "2026-11-26T04:32:37Z",
+    "fetched": "2026-11-26T12:41:11Z",
     "sha256": "82866362c09489833be36bb073b00a15bdae8b34ea9450aebf552c0756251ea1",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-119_6th_edition_december_2025.pdf"
   },
   "ecma-130": {
     "asset": "ecma-130--ECMA-130_2nd_edition_june_1996.pdf",
     "bytes": 1578188,
-    "fetched": "2026-11-26T04:32:59Z",
+    "fetched": "2026-11-26T12:41:32Z",
     "sha256": "576fb91e38e850b7597767ea48402a33e79a89ae4f7d41290e884142ad47f7b8",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-130_2nd_edition_june_1996.pdf"
   },
   "ecma-167": {
     "asset": "ecma-167--ECMA-167_3rd_edition_june_1997.pdf",
     "bytes": 579302,
-    "fetched": "2026-11-26T04:32:39Z",
+    "fetched": "2026-11-26T12:41:12Z",
     "sha256": "6efe0f591e21da2b17288076b2653dc616800bdc94f83e74acba9279c84c34b7",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-167_3rd_edition_june_1997.pdf"
   },
   "ecma-168": {
     "asset": "ecma-168--ECMA-168_2nd_edition_december_1994.pdf",
     "bytes": 473616,
-    "fetched": "2026-11-26T04:32:41Z",
+    "fetched": "2026-11-26T12:41:14Z",
     "sha256": "ce3884e60f74c4393816431ed98e5a24915cda1959287529a631c8e9665c7cdc",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-168_2nd_edition_december_1994.pdf"
   },
   "ecma-267": {
     "asset": "ecma-267--ECMA-267_3rd_edition_april_2001.pdf",
     "bytes": 2192925,
-    "fetched": "2026-11-26T04:33:05Z",
+    "fetched": "2026-11-26T12:41:38Z",
     "sha256": "3fc0e054557eb6858da1fb7e261e1fedc1e2dc200b6378726e10006b64aa1b07",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-267_3rd_edition_april_2001.pdf"
   },
   "ecma-268": {
     "asset": "ecma-268--ECMA-268_3rd_edition_april_2001.pdf",
     "bytes": 2195235,
-    "fetched": "2026-11-26T04:33:07Z",
+    "fetched": "2026-11-26T12:41:40Z",
     "sha256": "59fee8ce346d698bc584c5a3e698f62653f89864c93db8a4e26809cb51d9cd39",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-268_3rd_edition_april_2001.pdf"
   },
   "ecma-330": {
     "asset": "ecma-330--ECMA-330_3rd_edition_june_2005.pdf",
     "bytes": 6403554,
-    "fetched": "2026-11-26T04:33:24Z",
+    "fetched": "2026-11-26T12:41:55Z",
     "sha256": "f4ea62422414a04e19d8658acab6fec8006f2884abd3f9e7ebca1ac534eedb57",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-330_3rd_edition_june_2005.pdf"
   },
   "ecma-337": {
     "asset": "ecma-337--ECMA-337_4th_edition_june_2008.pdf",
     "bytes": 1616695,
-    "fetched": "2026-11-26T04:33:19Z",
+    "fetched": "2026-11-26T12:41:51Z",
     "sha256": "8d18611bbf44b884a34c51ca6962d808fa3c552b33466a65fb97c5a635e98c5b",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-337_4th_edition_june_2008.pdf"
   },
   "ecma-349": {
     "asset": "ecma-349--ECMA-349_4th_edition_june_2008.pdf",
     "bytes": 1853504,
-    "fetched": "2026-11-26T04:33:15Z",
+    "fetched": "2026-11-26T12:41:47Z",
     "sha256": "a2e58acf3d6a0cbbc24fc3bde6d6b5ba3790fb89ade72855c229e47f6c1fe896",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-349_4th_edition_june_2008.pdf"
   },
   "ecma-359": {
     "asset": "ecma-359--ECMA-359_1st_edition_december_2004.pdf",
     "bytes": 1973517,
-    "fetched": "2026-11-26T04:33:09Z",
+    "fetched": "2026-11-26T12:41:41Z",
     "sha256": "b85c42253cbb1dcb9c03b4040c198f17bd3a1a6f7aed50c806948aebf1f025b1",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-359_1st_edition_december_2004.pdf"
   },
   "ecma-364": {
     "asset": "ecma-364--ECMA-364_3rd_edition_december_2007.pdf",
     "bytes": 1255643,
-    "fetched": "2026-11-26T04:33:17Z",
+    "fetched": "2026-11-26T12:41:49Z",
     "sha256": "fb7f958a6e7109b4c2549ff04adf585527e6e8de944be4adef2751ea8e5acbeb",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-364_3rd_edition_december_2007.pdf"
   },
   "ecma-374": {
     "asset": "ecma-374--ECMA-374_2nd_edition_june_2008.pdf",
     "bytes": 1737231,
-    "fetched": "2026-11-26T04:33:21Z",
+    "fetched": "2026-11-26T12:41:53Z",
     "sha256": "2964f1640a2fb4aff033ad456232013e46e81374effe0540375c8971d9fdf915",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-374_2nd_edition_june_2008.pdf"
   },
   "ecma-379": {
     "asset": "ecma-379--ECMA-379_3rd_edition_june_2010.pdf",
     "bytes": 832303,
-    "fetched": "2026-11-26T04:33:26Z",
+    "fetched": "2026-11-26T12:41:57Z",
     "sha256": "1946a3013ba67a0728df305933f206c5d805c56565111558c6be9d9628018f7f",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-379_3rd_edition_june_2010.pdf"
   },
   "ecma-382": {
     "asset": "ecma-382--ECMA-382_2nd_edition_june_2010.pdf",
     "bytes": 3213815,
-    "fetched": "2026-11-26T04:33:11Z",
+    "fetched": "2026-11-26T12:41:43Z",
     "sha256": "d7017ab70c89472a6e447546a14d1834cd1ee556ab070249ab33452f665bcbe7",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-382_2nd_edition_june_2010.pdf"
   },
   "ecma-384": {
     "asset": "ecma-384--ECMA-384_1st_edition_december_2008.pdf",
     "bytes": 1481027,
-    "fetched": "2026-11-26T04:33:13Z",
+    "fetched": "2026-11-26T12:41:45Z",
     "sha256": "9a81985da045f9fc6a72ccb550e7fe887391c9174599ef9cdd6dc85bd4afefc4",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-384_1st_edition_december_2008.pdf"
   },
   "ecma-394": {
     "asset": "ecma-394--ECMA-394_1st_edition_december_2010.pdf",
     "bytes": 2068402,
-    "fetched": "2026-11-26T04:33:01Z",
+    "fetched": "2026-11-26T12:41:34Z",
     "sha256": "a17af0914a55f09fb0a13daa150b1e5d714662e713fa7e0819895aeddc955a50",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-394_1st_edition_december_2010.pdf"
   },
   "ecma-395": {
     "asset": "ecma-395--ECMA-395_1st_edition_december_2010.pdf",
     "bytes": 2301851,
-    "fetched": "2026-11-26T04:33:03Z",
+    "fetched": "2026-11-26T12:41:36Z",
     "sha256": "a0a31308aa13fa46708b118a6aa2eb16b7f902f72eae9f3a5f7b614b2ad72c6c",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-395_1st_edition_december_2010.pdf"
   },
   "ecma-396": {
     "asset": "ecma-396--ECMA-396_4th_edition_june_2017.pdf",
     "bytes": 2410617,
-    "fetched": "2026-11-26T04:33:28Z",
+    "fetched": "2026-11-26T12:41:59Z",
     "sha256": "0f6d75e2b262014538bab9634cae7a3df7e7d19a849fcb935b1ca1192aa959d7",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-396_4th_edition_june_2017.pdf"
   },
   "ecma-413": {
     "asset": "ecma-413--ECMA-413_4th_edition_june_2022.pdf",
     "bytes": 539679,
-    "fetched": "2026-11-26T04:33:29Z",
+    "fetched": "2026-11-26T12:42:01Z",
     "sha256": "a8670053def4ab80624c6438ed85278e5ecbd59d5b86a90f138290e9110dd927",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-413_4th_edition_june_2022.pdf"
   },
   "ecma-421": {
     "asset": "ecma-421--ECMA-421_2nd_edition_june_2024.pdf",
     "bytes": 2330151,
-    "fetched": "2026-11-26T04:33:32Z",
+    "fetched": "2026-11-26T12:42:03Z",
     "sha256": "f0db03897f0075f2a5c5533928d5ab4c893560f12dbc3c0e8e280cca6d21fc6a",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA-421_2nd_edition_june_2024.pdf"
   },
   "ecma-tr-112-1": {
     "asset": "ecma-tr-112-1--ECMA_TR-112-1_1st_edition_december_2023.pdf",
     "bytes": 1490354,
-    "fetched": "2026-11-26T04:32:43Z",
+    "fetched": "2026-11-26T12:41:16Z",
     "sha256": "416929a76480f8ab969a8e8d08484ee813e6ab21ecb07559f93a528abc1c1f1f",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-1_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-2": {
     "asset": "ecma-tr-112-2--ECMA_TR-112-2_1st_edition_december_2023.pdf",
     "bytes": 2424200,
-    "fetched": "2026-11-26T04:32:45Z",
+    "fetched": "2026-11-26T12:41:18Z",
     "sha256": "fe3e2cf2f62092a4ee8299813bdbbfc0eed873c631811245931b811a72b45020",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-3": {
     "asset": "ecma-tr-112-3--ECMA_TR-112-3_1st_edition_december_2023.pdf",
     "bytes": 2689007,
-    "fetched": "2026-11-26T04:32:47Z",
+    "fetched": "2026-11-26T12:41:20Z",
     "sha256": "614c51e15846cb268f8d6e1dac39b9323f05ef317157cc8f8b40effe10c4f159",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-3_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-4": {
     "asset": "ecma-tr-112-4--ECMA_TR-112-4_1st_edition_december_2023.pdf",
     "bytes": 2144551,
-    "fetched": "2026-11-26T04:32:49Z",
+    "fetched": "2026-11-26T12:41:22Z",
     "sha256": "6be7af504b07ebc406b01d8a6975458a7cbda360da6057afcf914cb42b32b0f8",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-4_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-5": {
     "asset": "ecma-tr-112-5--ECMA_TR-112-5_1st_edition_december_2023.pdf",
     "bytes": 1989322,
-    "fetched": "2026-11-26T04:32:51Z",
+    "fetched": "2026-11-26T12:41:24Z",
     "sha256": "5addcc75dd9b27263d3cf70c59805dbae867d04f7660323d45f77e305859d93f",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-5_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-6": {
     "asset": "ecma-tr-112-6--ECMA_TR-112-6_1st_edition_december_2023.pdf",
     "bytes": 2713442,
-    "fetched": "2026-11-26T04:32:53Z",
+    "fetched": "2026-11-26T12:41:26Z",
     "sha256": "fb535633071ad5f90dbf33a3efa506818db544ecfb84aa924c1a486d49928940",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-6_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-7": {
     "asset": "ecma-tr-112-7--ECMA_TR-112-7_1st_edition_december_2023.pdf",
     "bytes": 2388280,
-    "fetched": "2026-11-26T04:32:55Z",
+    "fetched": "2026-11-26T12:41:28Z",
     "sha256": "95a77cf9a4b457b7258cdb73b4bd5ff17931119db3701ee9f6bdcbb675d543f6",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-7_1st_edition_december_2023.pdf"
   },
   "ecma-tr-112-8": {
     "asset": "ecma-tr-112-8--ECMA_TR-112-8_1st_edition_december_2023.pdf",
     "bytes": 1772646,
-    "fetched": "2026-11-26T04:32:57Z",
+    "fetched": "2026-11-26T12:41:30Z",
     "sha256": "8269904ef6f15c4068233abc00ccddf61276c269073da35c8dda915d86d10718",
     "source": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-8_1st_edition_december_2023.pdf"
+  },
+  "libbluray": {
+    "asset": "libbluray--libbluray_1.5.0.orig.tar.xz",
+    "bytes": 473072,
+    "fetched": "2026-11-26T12:42:29Z",
+    "sha256": "f676408e91a5d321abf8b8d4dfdae36205c297dab5c54c3ec519639025f474a2",
+    "source": "https://deb.debian.org/debian/pool/main/libb/libbluray/libbluray_1.5.0.orig.tar.xz"
   },
   "libburn": {
     "asset": "libburn--libburn-1.5.6.tar.gz",
     "bytes": 995353,
-    "fetched": "2026-11-26T04:33:34Z",
+    "fetched": "2026-11-26T12:42:05Z",
     "sha256": "7295491b4be5eeac5e7a3fb2067e236e2955ffdc6bbd45f546466edee321644b",
     "source": "https://files.libburnia-project.org/releases/libburn-1.5.6.tar.gz"
+  },
+  "libcdio": {
+    "asset": "libcdio--libcdio_2.2.0.orig.tar.gz",
+    "bytes": 1934924,
+    "fetched": "2026-11-26T12:42:13Z",
+    "sha256": "df007a9b9667797e027e573822cc865e5e106352f8a6fbca67ee8e9e7a1e5b51",
+    "source": "https://deb.debian.org/debian/pool/main/libc/libcdio/libcdio_2.2.0.orig.tar.gz"
+  },
+  "libdvdread": {
+    "asset": "libdvdread--libdvdread_7.1.1.orig.tar.xz",
+    "bytes": 102460,
+    "fetched": "2026-11-26T12:42:28Z",
+    "sha256": "a0d47876548bec806774bbf8dbf20bb19ba139464383156b32eb8e59915b90a9",
+    "source": "https://deb.debian.org/debian/pool/main/libd/libdvdread/libdvdread_7.1.1.orig.tar.xz"
   },
   "libisoburn": {
     "asset": "libisoburn--libisoburn-1.5.6.tar.gz",
     "bytes": 1650966,
-    "fetched": "2026-11-26T04:33:37Z",
+    "fetched": "2026-11-26T12:42:09Z",
     "sha256": "2b80a6f73dd633a5d243facbe97a15e5c9a07644a5e1a242c219b9375a45f71b",
     "source": "https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz"
   },
   "libisofs": {
     "asset": "libisofs--libisofs-1.5.6.pl01.tar.gz",
     "bytes": 879218,
-    "fetched": "2026-11-26T04:33:35Z",
+    "fetched": "2026-11-26T12:42:07Z",
     "sha256": "ac1fd338d641744ca1fb1567917188b79bc8c2506832dd56885fec98656b9f25",
     "source": "https://files.libburnia-project.org/releases/libisofs-1.5.6.pl01.tar.gz"
   },
   "loc-cd-longevity": {
     "asset": "loc-cd-longevity--studyofCDlongevity.pdf",
     "bytes": 370724,
-    "fetched": "2026-11-26T04:33:44Z",
+    "fetched": "2026-11-26T12:42:18Z",
     "sha256": "d41df9362e0be6d5d241c3d8e4f29f7c47f78a15b29ca1a0f4452d3778b5b31d",
     "source": "https://loc.gov/preservation/resources/rt/studyofCDlongevity.pdf"
   },
   "loc-cd-service-life": {
     "asset": "loc-cd-service-life--CDservicelife_rev.pdf",
     "bytes": 440393,
-    "fetched": "2026-11-26T04:33:46Z",
+    "fetched": "2026-11-26T12:42:19Z",
     "sha256": "ad59c96b7d0b0286cd642ee5f5acd830c5c3686834256993babc149f8b6f33a9",
     "source": "https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf"
   },
   "loc-laser-engraving": {
     "asset": "loc-laser-engraving--LaserEngraving_rev.pdf",
     "bytes": 400578,
-    "fetched": "2026-11-26T04:33:47Z",
+    "fetched": "2026-11-26T12:42:20Z",
     "sha256": "10f6907152761d4b68d301f605906fd468a63ffe170873c51e747e194d3e8180",
     "source": "https://loc.gov/preservation/resources/rt/LaserEngraving_rev.pdf"
   },
   "loc-nist-final-report": {
     "asset": "loc-nist-final-report--NIST_LC_OpticalDiscLongevity.pdf",
     "bytes": 413087,
-    "fetched": "2026-11-26T04:33:43Z",
+    "fetched": "2026-11-26T12:42:17Z",
     "sha256": "0a3f13488afa32af798da31f2b69775453ebf0b7642b3d3ddd63150f6443cfbd",
     "source": "https://loc.gov/preservation/resources/rt/NIST_LC_OpticalDiscLongevity.pdf"
   },
   "nist-jres-109-517": {
     "asset": "nist-jres-109-517--j95sla.pdf",
     "bytes": 669645,
-    "fetched": "2026-11-26T04:33:41Z",
+    "fetched": "2026-11-26T12:42:15Z",
     "sha256": "f0a0f9d0bfc6ea39fcb803652531409729380b9da58b1eae8334e864a21e033d",
     "source": "https://nvlpubs.nist.gov/nistpubs/jres/109/5/j95sla.pdf"
   },
   "nist-sp-500-252": {
     "asset": "nist-sp-500-252--NISTspecialpublication500-252.pdf",
     "bytes": 1564443,
-    "fetched": "2026-11-26T04:33:49Z",
+    "fetched": "2026-11-26T12:42:22Z",
     "sha256": "619a7d4155539e522582564b0d1fb8c990a7e2abb38385baacc80e80e1fe5774",
     "source": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/NISTspecialpublication500-252.pdf"
   },
   "nist-sp-500-263": {
     "asset": "nist-sp-500-263--nistspecialpublication500-263.pdf",
     "bytes": 301178,
-    "fetched": "2026-11-26T04:33:42Z",
+    "fetched": "2026-11-26T12:42:16Z",
     "sha256": "c945f2ff6f6601b9bce26f73de6512f315d798e8ca266572d7f490722cba5b65",
     "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-263.pdf"
+  },
+  "qpxtool": {
+    "asset": "qpxtool--qpxtool_0.8.1.orig.tar.bz2",
+    "bytes": 590664,
+    "fetched": "2026-11-26T12:42:24Z",
+    "sha256": "7213c9984a92b47500537262b4205c36cd1c0a9d82ea7012fbf473f7221d781d",
+    "source": "https://deb.debian.org/debian/pool/main/q/qpxtool/qpxtool_0.8.1.orig.tar.bz2"
+  },
+  "sg3-utils": {
+    "asset": "sg3-utils--sg3-utils_1.48.orig.tar.xz",
+    "bytes": 1211028,
+    "fetched": "2026-11-26T12:42:25Z",
+    "sha256": "d6b9a41690d540e58d1e99c26ac8db37336c849ef6a03f96ea48ca2fe334dbfa",
+    "source": "https://deb.debian.org/debian/pool/main/s/sg3-utils/sg3-utils_1.48.orig.tar.xz"
+  },
+  "udftools": {
+    "asset": "udftools--udftools_2.3.orig.tar.gz",
+    "bytes": 581756,
+    "fetched": "2026-11-26T12:42:26Z",
+    "sha256": "750dcf5c797765eb42265e0a56d1a99f97f94b7f6f4534263a5410503f0caf59",
+    "source": "https://deb.debian.org/debian/pool/main/u/udftools/udftools_2.3.orig.tar.gz"
+  },
+  "whipper": {
+    "asset": "whipper--whipper_0.10.0.orig.tar.xz",
+    "bytes": 200004,
+    "fetched": "2026-11-26T12:42:27Z",
+    "sha256": "1adbcf821525ba1a44904d58b1a92f07c94f1159c06207a96e5ed82a40ae7364",
+    "source": "https://deb.debian.org/debian/pool/main/w/whipper/whipper_0.10.0.orig.tar.xz"
   }
 }

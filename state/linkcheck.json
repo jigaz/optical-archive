@@ -1,521 +1,530 @@
 {
   "aaru": {
-    "checked": "2026-11-26T04:32:12Z",
+    "checked": "2026-11-26T12:40:48Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/aaru-dps/Aaru",
     "status": 200
   },
   "accuraterip-drive-offsets": {
-    "checked": "2026-11-26T04:32:29Z",
+    "checked": "2026-11-26T12:41:02Z",
     "content_type": "text/html",
     "final_url": "https://www.accuraterip.com/driveoffsets.htm",
     "status": 200
   },
   "apple-databurn-sample": {
-    "checked": "2026-11-26T04:32:24Z",
+    "checked": "2026-11-26T12:40:57Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/library/archive/samplecode/DataBurn/Introduction/Intro.html",
     "status": 200
   },
   "apple-discrecording": {
-    "checked": "2026-11-26T04:32:23Z",
+    "checked": "2026-11-26T12:40:56Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/library/archive/releasenotes/MusicAudio/RN-DiscRecording/index.html",
     "status": 200
   },
   "apple-driverkit-ipad": {
-    "checked": "2026-11-26T04:31:36Z",
+    "checked": "2026-11-26T12:40:07Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/documentation/driverkit/creating-drivers-for-ipados",
     "status": 200
   },
   "apple-sam-access": {
-    "checked": "2026-11-26T04:31:32Z",
+    "checked": "2026-11-26T12:40:03Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/WorkingWithSAM/WWS_SAMDevInt/WWS_SAM_DevInt.html",
     "status": 200
   },
   "apple-scsi-family": {
-    "checked": "2026-11-26T04:31:28Z",
+    "checked": "2026-11-26T12:39:52Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/apple-oss-distributions/IOSCSIArchitectureModelFamily",
     "status": 200
   },
   "apple-stuc-sample": {
-    "checked": "2026-11-26T04:31:33Z",
+    "checked": "2026-11-26T12:40:04Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceCocoaSample/Listings/MyDocument_m.html",
     "status": 200
   },
   "apple-stuc-tool": {
-    "checked": "2026-11-26T04:31:35Z",
+    "checked": "2026-11-26T12:40:05Z",
     "content_type": "text/html",
     "final_url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceTool/Listings/STUCAuthoringDeviceTool_c.html",
     "status": 200
   },
   "bda-specs": {
-    "checked": "2026-11-26T04:31:40Z",
+    "checked": "2026-11-26T12:40:11Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://blu-raydisc.info/",
     "status": 200
   },
   "blocksandfiles-sony-2025": {
-    "checked": "2026-11-26T04:32:35Z",
+    "checked": "2026-11-26T12:41:07Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://www.blocksandfiles.com/disk/2025/02/03/sony-quits-recordable-blu-ray-disc-market/1601137",
     "status": 200
   },
   "cci-cd-formats-faq": {
-    "checked": "2026-11-26T04:31:52Z",
+    "checked": "2026-11-26T12:40:27Z",
     "content_type": "text/html;charset=utf-8",
     "final_url": "https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/cd-formats-longevity-faq.html",
     "status": 200
   },
   "cci-electronic-media-care": {
-    "checked": "2026-11-26T04:31:59Z",
+    "checked": "2026-11-26T12:40:33Z",
     "content_type": "text/html;charset=utf-8",
     "final_url": "https://www.canada.ca/en/conservation-institute/services/care-objects/electronic-media/electronic-media-collections-small-museums-archives.html",
     "status": 200
   },
   "cci-notes-19-1": {
-    "checked": "2026-11-26T04:31:48Z",
+    "checked": "2026-11-26T12:40:23Z",
     "content_type": "text/html;charset=utf-8",
     "final_url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/longevity-recordable-cds-dvds.html",
     "status": 200
   },
   "cdemu": {
-    "checked": "2026-11-26T04:32:22Z",
+    "checked": "2026-11-26T12:40:55Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://cdemu.sourceforge.io/",
     "status": 200
   },
   "cdparanoia": {
-    "checked": "2026-11-26T04:31:31Z",
+    "checked": "2026-11-26T12:40:02Z",
     "content_type": "text/html",
     "final_url": "https://www.xiph.org/paranoia/",
+    "source_url": "https://deb.debian.org/debian/pool/main/c/cdparanoia/cdparanoia_3.10.2+debian.orig.tar.gz",
     "status": 200
   },
   "cdrdao": {
-    "checked": "2026-11-26T04:31:21Z",
+    "checked": "2026-11-26T12:39:45Z",
     "content_type": "application/x-gzip",
     "final_url": "https://codeload.github.com/cdrdao/cdrdao/tar.gz/refs/tags/rel_1_2_6",
     "status": 200
   },
   "discimagecreator": {
-    "checked": "2026-11-26T04:32:11Z",
+    "checked": "2026-11-26T12:40:46Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/saramibreak/DiscImageCreator",
     "status": 200
   },
   "dvd-books": {
-    "checked": "2026-11-26T04:31:39Z",
+    "checked": "2026-11-26T12:40:10Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://en.wikipedia.org/wiki/DVD_Forum",
     "status": 200
   },
   "dvd-rw-tools": {
-    "checked": "2026-11-26T04:31:20Z",
+    "checked": "2026-11-26T12:39:44Z",
     "problem": "HTTP Error 404: Not Found",
     "status": 404
   },
   "dvdisaster": {
-    "checked": "2026-11-26T04:32:01Z",
+    "checked": "2026-11-26T12:40:35Z",
     "content_type": "application/x-bzip2",
     "final_url": "https://deb.debian.org/debian/pool/main/d/dvdisaster/dvdisaster_0.79.10.orig.tar.bz2",
     "status": 200
   },
   "ecma-119": {
-    "checked": "2026-11-26T04:29:38Z",
+    "checked": "2026-11-26T12:38:01Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-119/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-119_6th_edition_december_2025.pdf",
     "status": 200
   },
   "ecma-130": {
-    "checked": "2026-11-26T04:30:01Z",
+    "checked": "2026-11-26T12:38:25Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-130/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-130_2nd_edition_june_1996.pdf",
     "status": 200
   },
   "ecma-167": {
-    "checked": "2026-11-26T04:29:42Z",
+    "checked": "2026-11-26T12:38:06Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-167/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-167_3rd_edition_june_1997.pdf",
     "status": 200
   },
   "ecma-168": {
-    "checked": "2026-11-26T04:29:46Z",
+    "checked": "2026-11-26T12:38:10Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-168/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-168_2nd_edition_december_1994.pdf",
     "status": 200
   },
   "ecma-267": {
-    "checked": "2026-11-26T04:30:13Z",
+    "checked": "2026-11-26T12:38:36Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-267/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-267_3rd_edition_april_2001.pdf",
     "status": 200
   },
   "ecma-268": {
-    "checked": "2026-11-26T04:30:17Z",
+    "checked": "2026-11-26T12:38:40Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-268/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-268_3rd_edition_april_2001.pdf",
     "status": 200
   },
   "ecma-330": {
-    "checked": "2026-11-26T04:30:48Z",
+    "checked": "2026-11-26T12:39:13Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-330/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-330_3rd_edition_june_2005.pdf",
     "status": 200
   },
   "ecma-337": {
-    "checked": "2026-11-26T04:30:40Z",
+    "checked": "2026-11-26T12:39:05Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-337/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-337_4th_edition_june_2008.pdf",
     "status": 200
   },
   "ecma-349": {
-    "checked": "2026-11-26T04:30:32Z",
+    "checked": "2026-11-26T12:38:57Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-349/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-349_4th_edition_june_2008.pdf",
     "status": 200
   },
   "ecma-359": {
-    "checked": "2026-11-26T04:30:21Z",
+    "checked": "2026-11-26T12:38:44Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-359/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-359_1st_edition_december_2004.pdf",
     "status": 200
   },
   "ecma-364": {
-    "checked": "2026-11-26T04:30:36Z",
+    "checked": "2026-11-26T12:39:01Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-364/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-364_3rd_edition_december_2007.pdf",
     "status": 200
   },
   "ecma-374": {
-    "checked": "2026-11-26T04:30:44Z",
+    "checked": "2026-11-26T12:39:09Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-374/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-374_2nd_edition_june_2008.pdf",
     "status": 200
   },
   "ecma-379": {
-    "checked": "2026-11-26T04:30:52Z",
+    "checked": "2026-11-26T12:39:17Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-379/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-379_3rd_edition_june_2010.pdf",
     "status": 200
   },
   "ecma-382": {
-    "checked": "2026-11-26T04:30:24Z",
+    "checked": "2026-11-26T12:38:49Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-382/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-382_2nd_edition_june_2010.pdf",
     "status": 200
   },
   "ecma-384": {
-    "checked": "2026-11-26T04:30:28Z",
+    "checked": "2026-11-26T12:38:53Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-384/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-384_1st_edition_december_2008.pdf",
     "status": 200
   },
   "ecma-394": {
-    "checked": "2026-11-26T04:30:05Z",
+    "checked": "2026-11-26T12:38:29Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-394/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-394_1st_edition_december_2010.pdf",
     "status": 200
   },
   "ecma-395": {
-    "checked": "2026-11-26T04:30:09Z",
+    "checked": "2026-11-26T12:38:32Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-395/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-395_1st_edition_december_2010.pdf",
     "status": 200
   },
   "ecma-396": {
-    "checked": "2026-11-26T04:30:56Z",
+    "checked": "2026-11-26T12:39:22Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-396/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-396_4th_edition_june_2017.pdf",
     "status": 200
   },
   "ecma-413": {
-    "checked": "2026-11-26T04:31:00Z",
+    "checked": "2026-11-26T12:39:26Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-413/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-413_4th_edition_june_2022.pdf",
     "status": 200
   },
   "ecma-421": {
-    "checked": "2026-11-26T04:31:03Z",
+    "checked": "2026-11-26T12:39:30Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-421/",
     "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-421_2nd_edition_june_2024.pdf",
     "status": 200
   },
   "ecma-tr-112-1": {
-    "checked": "2026-11-26T04:29:50Z",
+    "checked": "2026-11-26T12:38:15Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-1_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-2": {
-    "checked": "2026-11-26T04:29:51Z",
+    "checked": "2026-11-26T12:38:16Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-3": {
-    "checked": "2026-11-26T04:29:52Z",
+    "checked": "2026-11-26T12:38:17Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-3_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-4": {
-    "checked": "2026-11-26T04:29:54Z",
+    "checked": "2026-11-26T12:38:18Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-4_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-5": {
-    "checked": "2026-11-26T04:29:55Z",
+    "checked": "2026-11-26T12:38:20Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-5_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-6": {
-    "checked": "2026-11-26T04:29:57Z",
+    "checked": "2026-11-26T12:38:21Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-6_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-7": {
-    "checked": "2026-11-26T04:29:58Z",
+    "checked": "2026-11-26T12:38:22Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-7_1st_edition_december_2023.pdf",
     "status": 200
   },
   "ecma-tr-112-8": {
-    "checked": "2026-11-26T04:30:00Z",
+    "checked": "2026-11-26T12:38:24Z",
     "content_type": "application/pdf",
     "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-8_1st_edition_december_2023.pdf",
     "status": 200
   },
   "freebsd-scsi-cd": {
-    "checked": "2026-11-26T04:31:27Z",
+    "checked": "2026-11-26T12:39:50Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/freebsd/freebsd-src/blob/main/sys/cam/scsi/scsi_cd.c",
     "status": 200
   },
   "iec-60908": {
-    "checked": "2026-11-26T04:31:38Z",
+    "checked": "2026-11-26T12:40:09Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://webstore.iec.ch/",
     "status": 200
   },
   "iraci-2017-restaurator": {
-    "checked": "2026-11-26T04:31:55Z",
+    "checked": "2026-11-26T12:40:29Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://www.degruyterbrill.com/document/doi/10.1515/res-2016-0032/pdf",
     "status": 202
   },
   "libbluray": {
-    "checked": "2026-11-26T04:32:20Z",
+    "checked": "2026-11-26T12:40:53Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://code.videolan.org/videolan/libbluray",
+    "source_url": "https://deb.debian.org/debian/pool/main/libb/libbluray/libbluray_1.5.0.orig.tar.xz",
     "status": 200
   },
   "libburn": {
-    "checked": "2026-11-26T04:31:15Z",
+    "checked": "2026-11-26T12:39:40Z",
     "content_type": "application/gzip",
     "final_url": "https://files.libburnia-project.org/releases/libburn-1.5.6.tar.gz",
     "status": 200
   },
   "libcdio": {
-    "checked": "2026-11-26T04:31:30Z",
+    "checked": "2026-11-26T12:39:53Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://libcdio.github.io/",
+    "source_url": "https://deb.debian.org/debian/pool/main/libc/libcdio/libcdio_2.2.0.orig.tar.gz",
     "status": 200
   },
   "libdvdread": {
-    "checked": "2026-11-26T04:32:15Z",
+    "checked": "2026-11-26T12:40:51Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://code.videolan.org/videolan/libdvdread",
+    "source_url": "https://deb.debian.org/debian/pool/main/libd/libdvdread/libdvdread_7.1.1.orig.tar.xz",
     "status": 200
   },
   "libisoburn": {
-    "checked": "2026-11-26T04:31:18Z",
+    "checked": "2026-11-26T12:39:42Z",
     "content_type": "application/gzip",
     "final_url": "https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz",
     "status": 200
   },
   "libisofs": {
-    "checked": "2026-11-26T04:31:16Z",
+    "checked": "2026-11-26T12:39:41Z",
     "content_type": "application/gzip",
     "final_url": "https://files.libburnia-project.org/releases/libisofs-1.5.6.pl01.tar.gz",
     "status": 200
   },
   "linux-cdrom": {
-    "checked": "2026-11-26T04:31:24Z",
+    "checked": "2026-11-26T12:39:49Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/torvalds/linux/blob/master/drivers/cdrom/cdrom.c",
     "status": 200
   },
   "linux-cdrom-ioctl": {
-    "checked": "2026-11-26T04:32:28Z",
+    "checked": "2026-11-26T12:41:01Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://www.kernel.org/doc/html/latest/userspace-api/ioctl/cdrom.html",
     "status": 200
   },
   "linux-sr": {
-    "checked": "2026-11-26T04:31:22Z",
+    "checked": "2026-11-26T12:39:47Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/torvalds/linux/blob/master/drivers/scsi/sr.c",
     "status": 200
   },
   "loc-cd-longevity": {
-    "checked": "2026-11-26T04:31:45Z",
+    "checked": "2026-11-26T12:40:17Z",
     "content_type": "application/pdf",
     "final_url": "https://loc.gov/preservation/resources/rt/studyofCDlongevity.pdf",
     "status": 200
   },
   "loc-cd-service-life": {
-    "checked": "2026-11-26T04:31:46Z",
+    "checked": "2026-11-26T12:40:20Z",
     "content_type": "application/pdf",
     "final_url": "https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf",
     "status": 200
   },
   "loc-laser-engraving": {
-    "checked": "2026-11-26T04:31:47Z",
+    "checked": "2026-11-26T12:40:22Z",
     "content_type": "application/pdf",
     "final_url": "https://loc.gov/preservation/resources/rt/LaserEngraving_rev.pdf",
     "status": 200
   },
   "loc-nist-final-report": {
-    "checked": "2026-11-26T04:31:44Z",
+    "checked": "2026-11-26T12:40:15Z",
     "content_type": "application/pdf",
     "final_url": "https://loc.gov/preservation/resources/rt/NIST_LC_OpticalDiscLongevity.pdf",
     "status": 200
   },
   "mdisc-china-lake": {
-    "checked": "2026-11-26T04:31:56Z",
+    "checked": "2026-11-26T12:40:30Z",
     "content_type": "application/pdf",
     "final_url": "https://www.verbatim.jp/download/products/mdisc/M-DISC_1sheet_ChinaLake_vF.pdf",
     "status": 200
   },
   "microsoft-imapi": {
-    "checked": "2026-11-26T04:31:37Z",
+    "checked": "2026-11-26T12:40:08Z",
     "content_type": "text/html",
     "final_url": "https://learn.microsoft.com/en-us/windows/win32/imapi/portal",
     "status": 200
   },
   "mmc-3-r10g": {
-    "checked": "2026-11-26T04:31:10Z",
+    "checked": "2026-11-26T12:39:37Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://archive.org/details/mmc3r10g",
     "status": 200
   },
   "musicbrainz-discid": {
-    "checked": "2026-11-26T04:32:30Z",
+    "checked": "2026-11-26T12:41:03Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://musicbrainz.org/doc/Disc_ID_Calculation",
     "status": 200
   },
   "nist-jres-109-517": {
-    "checked": "2026-11-26T04:31:42Z",
+    "checked": "2026-11-26T12:40:13Z",
     "content_type": "application/pdf",
     "final_url": "https://nvlpubs.nist.gov/nistpubs/jres/109/5/j95sla.pdf",
     "status": 200
   },
   "nist-sp-500-252": {
-    "checked": "2026-11-26T04:31:58Z",
+    "checked": "2026-11-26T12:40:32Z",
     "content_type": "application/pdf",
     "final_url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/NISTspecialpublication500-252.pdf",
     "status": 200
   },
   "nist-sp-500-263": {
-    "checked": "2026-11-26T04:31:43Z",
+    "checked": "2026-11-26T12:40:14Z",
     "content_type": "application/pdf",
     "final_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-263.pdf",
     "status": 200
   },
   "qpxtool": {
-    "checked": "2026-11-26T04:32:02Z",
+    "checked": "2026-11-26T12:40:36Z",
     "content_type": "text/html",
     "final_url": "https://qpxtool.sourceforge.io/",
+    "source_url": "https://deb.debian.org/debian/pool/main/q/qpxtool/qpxtool_0.8.1.orig.tar.bz2",
     "status": 200
   },
   "redump": {
-    "checked": "2026-11-26T04:32:32Z",
+    "checked": "2026-11-26T12:41:05Z",
     "problem": "<urlopen error [Errno 111] Connection refused>",
     "status": null
   },
   "redumper": {
-    "checked": "2026-11-26T04:32:09Z",
+    "checked": "2026-11-26T12:40:45Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/superg/redumper",
     "status": 200
   },
   "schilytools": {
-    "checked": "2026-11-26T04:32:07Z",
+    "checked": "2026-11-26T12:40:41Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://codeberg.org/schilytools/schilytools",
     "status": 200
   },
   "sg3-utils": {
-    "checked": "2026-11-26T04:32:04Z",
-    "problem": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
-    "status": null
+    "checked": "2026-11-26T12:40:38Z",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://github.com/doug-gilbert/sg3_utils",
+    "source_url": "https://deb.debian.org/debian/pool/main/s/sg3-utils/sg3-utils_1.48.orig.tar.xz",
+    "status": 200
   },
   "snia-inf-ta-1010": {
-    "checked": "2026-11-26T04:31:07Z",
+    "checked": "2026-11-26T12:39:34Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://www.snia.org/technology-communities/sff/specifications",
     "status": 200
   },
   "sony-bd-r-end-2025": {
-    "checked": "2026-11-26T04:32:33Z",
+    "checked": "2026-11-26T12:41:06Z",
     "content_type": "text/html; charset=Shift_JIS",
     "final_url": "https://www.sony.jp/rec-media/info2/20250123.html",
     "status": 200
   },
   "t10-drafts": {
-    "checked": "2026-11-26T04:31:09Z",
+    "checked": "2026-11-26T12:39:36Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://t10.org/drafts.htm",
     "status": 200
   },
   "t10-mmc-pubs": {
-    "checked": "2026-11-26T04:31:08Z",
+    "checked": "2026-11-26T12:39:35Z",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://www.t10.org/pubs.htm",
     "status": 200
   },
   "udftools": {
-    "checked": "2026-11-26T04:32:06Z",
+    "checked": "2026-11-26T12:40:39Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/pali/udftools",
+    "source_url": "https://deb.debian.org/debian/pool/main/u/udftools/udftools_2.3.orig.tar.gz",
     "status": 200
   },
   "whipper": {
-    "checked": "2026-11-26T04:32:14Z",
+    "checked": "2026-11-26T12:40:49Z",
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://github.com/whipper-team/whipper",
+    "source_url": "https://deb.debian.org/debian/pool/main/w/whipper/whipper_0.10.0.orig.tar.xz",
     "status": 200
   },
   "wwdc-2002-discrecording": {
-    "checked": "2026-11-26T04:32:26Z",
+    "checked": "2026-11-26T12:40:59Z",
     "content_type": "application/pdf",
     "final_url": "https://dn600305.us.archive.org/view_archive.php?archive=/0/items/Wwdc2002DvdSet/WWDC_2002_Disc3.iso&file=PDFs%2F000%2F008.pdf",
     "status": 200
