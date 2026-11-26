@@ -754,9 +754,11 @@
       "category": "source",
       "title": "sg3_utils: send any SCSI or MMC command to a drive from the command line (sg_raw, sg_inq, sg_get_config)",
       "publisher": "Douglas Gilbert",
-      "url": "https://sg.danny.cz/sg/sg3_utils.html",
+      "url": "https://github.com/doug-gilbert/sg3_utils",
       "hosting": "link",
-      "license": "BSD-2-Clause (some files GPL-2.0)"
+      "license": "BSD-2-Clause (some files GPL-2.0)",
+      "home": "https://sg.danny.cz/sg/sg3_utils.html",
+      "notes": "The author's own site served an expired TLS certificate in November 2026; this is his GitHub repository of the same code."
     },
     {
       "id": "udftools",
@@ -904,7 +906,8 @@
       "publisher": "Redump project",
       "url": "https://redump.org/",
       "hosting": "link",
-      "license": "Database terms on the site."
+      "license": "Database terms on the site.",
+      "notes": "Refuses connections from GitHub's servers, so the monthly link check reports it as unreachable even when it is up."
     },
     {
       "id": "sony-bd-r-end-2025",
