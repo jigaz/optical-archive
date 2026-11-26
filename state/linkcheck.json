@@ -1,0 +1,326 @@
+{
+  "apple-driverkit-ipad": {
+    "checked": "2026-11-26T01:14:15Z",
+    "content_type": "text/html",
+    "final_url": "https://developer.apple.com/documentation/driverkit/creating-drivers-for-ipados",
+    "status": 200
+  },
+  "apple-sam-access": {
+    "checked": "2026-11-26T01:14:12Z",
+    "content_type": "text/html",
+    "final_url": "https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/WorkingWithSAM/WWS_SAMDevInt/WWS_SAM_DevInt.html",
+    "status": 200
+  },
+  "apple-scsi-family": {
+    "checked": "2026-11-26T01:14:00Z",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://github.com/apple-oss-distributions/IOSCSIArchitectureModelFamily",
+    "status": 200
+  },
+  "apple-stuc-sample": {
+    "checked": "2026-11-26T01:14:13Z",
+    "content_type": "text/html",
+    "final_url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceCocoaSample/Listings/MyDocument_m.html",
+    "status": 200
+  },
+  "apple-stuc-tool": {
+    "checked": "2026-11-26T01:14:14Z",
+    "content_type": "text/html",
+    "final_url": "https://developer.apple.com/library/archive/samplecode/STUCAuthoringDeviceTool/Listings/STUCAuthoringDeviceTool_c.html",
+    "status": 200
+  },
+  "bda-specs": {
+    "checked": "2026-11-26T01:14:20Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://blu-raydisc.info/",
+    "status": 200
+  },
+  "cdparanoia": {
+    "checked": "2026-11-26T01:14:10Z",
+    "content_type": "text/html",
+    "final_url": "https://www.xiph.org/paranoia/",
+    "status": 200
+  },
+  "cdrdao": {
+    "checked": "2026-11-26T01:13:53Z",
+    "content_type": "application/x-gzip",
+    "final_url": "https://codeload.github.com/cdrdao/cdrdao/tar.gz/refs/tags/rel_1_2_6",
+    "status": 200
+  },
+  "dvd-books": {
+    "checked": "2026-11-26T01:14:19Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://en.wikipedia.org/wiki/DVD_Forum",
+    "status": 200
+  },
+  "dvd-rw-tools": {
+    "checked": "2026-11-26T01:13:52Z",
+    "problem": "HTTP Error 404: Not Found",
+    "status": 404
+  },
+  "ecma-119": {
+    "checked": "2026-11-26T01:12:02Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-119/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-119_6th_edition_december_2025.pdf",
+    "status": 200
+  },
+  "ecma-130": {
+    "checked": "2026-11-26T01:12:28Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-130/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-130_2nd_edition_june_1996.pdf",
+    "status": 200
+  },
+  "ecma-167": {
+    "checked": "2026-11-26T01:12:07Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-167/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-167_3rd_edition_june_1997.pdf",
+    "status": 200
+  },
+  "ecma-168": {
+    "checked": "2026-11-26T01:12:11Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-168/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-168_2nd_edition_december_1994.pdf",
+    "status": 200
+  },
+  "ecma-267": {
+    "checked": "2026-11-26T01:12:40Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-267/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-267_3rd_edition_april_2001.pdf",
+    "status": 200
+  },
+  "ecma-268": {
+    "checked": "2026-11-26T01:12:44Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-268/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-268_3rd_edition_april_2001.pdf",
+    "status": 200
+  },
+  "ecma-330": {
+    "checked": "2026-11-26T01:13:18Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-330/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-330_3rd_edition_june_2005.pdf",
+    "status": 200
+  },
+  "ecma-337": {
+    "checked": "2026-11-26T01:13:10Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-337/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-337_4th_edition_june_2008.pdf",
+    "status": 200
+  },
+  "ecma-349": {
+    "checked": "2026-11-26T01:13:01Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-349/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-349_4th_edition_june_2008.pdf",
+    "status": 200
+  },
+  "ecma-359": {
+    "checked": "2026-11-26T01:12:48Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-359/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-359_1st_edition_december_2004.pdf",
+    "status": 200
+  },
+  "ecma-364": {
+    "checked": "2026-11-26T01:13:06Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-364/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-364_3rd_edition_december_2007.pdf",
+    "status": 200
+  },
+  "ecma-374": {
+    "checked": "2026-11-26T01:13:14Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-374/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-374_2nd_edition_june_2008.pdf",
+    "status": 200
+  },
+  "ecma-379": {
+    "checked": "2026-11-26T01:13:22Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-379/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-379_3rd_edition_june_2010.pdf",
+    "status": 200
+  },
+  "ecma-382": {
+    "checked": "2026-11-26T01:12:53Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-382/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-382_2nd_edition_june_2010.pdf",
+    "status": 200
+  },
+  "ecma-384": {
+    "checked": "2026-11-26T01:12:57Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-384/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-384_1st_edition_december_2008.pdf",
+    "status": 200
+  },
+  "ecma-394": {
+    "checked": "2026-11-26T01:12:32Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-394/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-394_1st_edition_december_2010.pdf",
+    "status": 200
+  },
+  "ecma-395": {
+    "checked": "2026-11-26T01:12:36Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-395/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-395_1st_edition_december_2010.pdf",
+    "status": 200
+  },
+  "ecma-396": {
+    "checked": "2026-11-26T01:13:27Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-396/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-396_4th_edition_june_2017.pdf",
+    "status": 200
+  },
+  "ecma-413": {
+    "checked": "2026-11-26T01:13:31Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-413/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-413_4th_edition_june_2022.pdf",
+    "status": 200
+  },
+  "ecma-421": {
+    "checked": "2026-11-26T01:13:35Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://ecma-international.org/publications-and-standards/standards/ecma-421/",
+    "pdf_url": "https://ecma-international.org/wp-content/uploads/ECMA-421_2nd_edition_june_2024.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-1": {
+    "checked": "2026-11-26T01:12:15Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-1_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-2": {
+    "checked": "2026-11-26T01:12:17Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-2_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-3": {
+    "checked": "2026-11-26T01:12:18Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-3_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-4": {
+    "checked": "2026-11-26T01:12:20Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-4_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-5": {
+    "checked": "2026-11-26T01:12:21Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-5_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-6": {
+    "checked": "2026-11-26T01:12:23Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-6_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-7": {
+    "checked": "2026-11-26T01:12:25Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-7_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "ecma-tr-112-8": {
+    "checked": "2026-11-26T01:12:26Z",
+    "content_type": "application/pdf",
+    "final_url": "https://ecma-international.org/wp-content/uploads/ECMA_TR-112-8_1st_edition_december_2023.pdf",
+    "status": 200
+  },
+  "freebsd-scsi-cd": {
+    "checked": "2026-11-26T01:13:58Z",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://github.com/freebsd/freebsd-src/blob/main/sys/cam/scsi/scsi_cd.c",
+    "status": 200
+  },
+  "iec-60908": {
+    "checked": "2026-11-26T01:14:17Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://webstore.iec.ch/",
+    "status": 200
+  },
+  "libburn": {
+    "checked": "2026-11-26T01:13:47Z",
+    "content_type": "application/gzip",
+    "final_url": "https://files.libburnia-project.org/releases/libburn-1.5.6.tar.gz",
+    "status": 200
+  },
+  "libcdio": {
+    "checked": "2026-11-26T01:14:02Z",
+    "problem": "<urlopen error [Errno 104] Connection reset by peer>",
+    "status": null
+  },
+  "libisoburn": {
+    "checked": "2026-11-26T01:13:50Z",
+    "content_type": "application/gzip",
+    "final_url": "https://files.libburnia-project.org/releases/libisoburn-1.5.6.tar.gz",
+    "status": 200
+  },
+  "libisofs": {
+    "checked": "2026-11-26T01:13:48Z",
+    "content_type": "application/gzip",
+    "final_url": "https://files.libburnia-project.org/releases/libisofs-1.5.6.pl01.tar.gz",
+    "status": 200
+  },
+  "linux-cdrom": {
+    "checked": "2026-11-26T01:13:57Z",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://github.com/torvalds/linux/blob/master/drivers/cdrom/cdrom.c",
+    "status": 200
+  },
+  "linux-sr": {
+    "checked": "2026-11-26T01:13:55Z",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://github.com/torvalds/linux/blob/master/drivers/scsi/sr.c",
+    "status": 200
+  },
+  "microsoft-imapi": {
+    "checked": "2026-11-26T01:14:16Z",
+    "content_type": "text/html",
+    "final_url": "https://learn.microsoft.com/en-us/windows/win32/imapi/portal",
+    "status": 200
+  },
+  "mmc-3-r10g": {
+    "checked": "2026-11-26T01:13:43Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://archive.org/details/mmc3r10g",
+    "status": 200
+  },
+  "snia-inf-ta-1010": {
+    "checked": "2026-11-26T01:13:39Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.snia.org/technology-communities/sff/specifications",
+    "status": 200
+  },
+  "t10-drafts": {
+    "checked": "2026-11-26T01:13:42Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://t10.org/drafts.htm",
+    "status": 200
+  },
+  "t10-mmc-pubs": {
+    "checked": "2026-11-26T01:13:41Z",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.t10.org/pubs.htm",
+    "status": 200
+  }
+}
