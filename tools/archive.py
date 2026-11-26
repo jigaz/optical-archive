@@ -83,11 +83,22 @@ def validate(catalog):
 # MARK: - Network
 
 
-def request(url, method="GET", limit=None, timeout=TIMEOUT):
-    req = urllib.request.Request(url, method=method, headers={"User-Agent": AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        body = response.read(limit) if limit else (b"" if method == "HEAD" else response.read())
-        return response.status, response.geturl(), response.headers, body
+def request(url, method="GET", limit=None, timeout=TIMEOUT, attempts=3):
+    """GET (or HEAD) a URL. A server that says it is busy (429 or 503) is asked again after the
+    wait it names, capped at two minutes, up to `attempts` times in all."""
+    for attempt in range(1, attempts + 1):
+        req = urllib.request.Request(url, method=method, headers={"User-Agent": AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                body = response.read(limit) if limit else (b"" if method == "HEAD" else response.read())
+                return response.status, response.geturl(), response.headers, body
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 503) or attempt == attempts:
+                raise
+            retry_after = error.headers.get("Retry-After", "")
+            wait = min(int(retry_after), 120) if retry_after.isdigit() else 30 * attempt
+            print(f"... {url}: HTTP {error.code}, trying again in {wait}s")
+            time.sleep(wait)
 
 
 def resolve_pdf(page_url, match):
@@ -130,6 +141,25 @@ def asset_name(item_id, url):
     return f"{item_id}--{name}"
 
 
+def keep_previous_copy(item_id, previous):
+    """When upstream is gone, carry the last mirrored copy into the new release, so the site's
+    releases/latest/download links keep working. Only a copy whose checksum still matches is kept."""
+    if not previous:
+        return False
+    url = f"https://github.com/{REPO}/releases/latest/download/{previous['asset']}"
+    try:
+        _, _, _, body = request(url)
+    except (urllib.error.URLError, OSError) as error:
+        print(f"... {item_id}: previous copy unavailable: {error}")
+        return False
+    if hashlib.sha256(body).hexdigest() != previous["sha256"]:
+        print(f"... {item_id}: previous copy does not match its checksum")
+        return False
+    (DIST / previous["asset"]).write_bytes(body)
+    print(f"ok  {item_id}: upstream failed; kept the previous copy {previous['sha256'][:12]}")
+    return True
+
+
 def mirror(catalog):
     links = load_state("linkcheck")
     lock = load_state("lock")
@@ -153,6 +183,9 @@ def mirror(catalog):
             except (urllib.error.URLError, OSError) as error:
                 print(f"... {item['id']}: {candidate}: {error}")
         if body is None or source is None:
+            if keep_previous_copy(item["id"], lock.get(item["id"])):
+                notes.append(f"- {item['id']}: every source failed this month; the copy from the previous mirror is kept")
+                continue
             print(f"BAD {item['id']}: every source failed")
             failures += 1
             continue

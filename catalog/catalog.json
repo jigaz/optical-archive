@@ -843,12 +843,31 @@
     {
       "id": "apple-discrecording",
       "category": "platform",
-      "title": "Apple: Disc Recording framework reference",
+      "title": "Apple: Disc Recording release notes (the framework's last published reference)",
       "publisher": "Apple",
-      "url": "https://developer.apple.com/documentation/discrecording",
+      "url": "https://developer.apple.com/library/archive/releasenotes/MusicAudio/RN-DiscRecording/index.html",
       "hosting": "link",
       "license": "Apple copyright.",
-      "notes": "The framework macOS apps, Krouton included, use to burn today. Not available on iPadOS."
+      "notes": "The framework macOS apps, Krouton included, use to burn today; not available on iPadOS. Apple's current documentation site no longer has a Disc Recording reference (developer.apple.com/documentation/discrecording returned 404 in November 2026), so the archived release notes and sample code below are what remains."
+    },
+    {
+      "id": "apple-databurn-sample",
+      "category": "platform",
+      "title": "Apple sample code: DataBurn (a folder data burn with Disc Recording and its standard panels)",
+      "publisher": "Apple",
+      "url": "https://developer.apple.com/library/archive/samplecode/DataBurn/Introduction/Intro.html",
+      "hosting": "link",
+      "license": "Apple sample code license (permits use, reproduction and redistribution)."
+    },
+    {
+      "id": "wwdc-2002-discrecording",
+      "category": "platform",
+      "title": "WWDC 2002 session 008: Disc Recording APIs (slides)",
+      "publisher": "Apple, via the Internet Archive's copy of the WWDC 2002 DVDs",
+      "url": "https://archive.org/download/Wwdc2002DvdSet/WWDC_2002_Disc3.iso/PDFs%2F000%2F008.pdf",
+      "hosting": "link",
+      "license": "Apple copyright.",
+      "notes": "The introduction of the framework in Mac OS X 10.2: DRBurn, DRTrack, DRErase and DRDevice, and how Finder and iTunes used them."
     },
     {
       "id": "linux-cdrom-ioctl",
