@@ -15,6 +15,9 @@ on:
 permissions:
   contents: write
 
+env:
+  PYTHONUNBUFFERED: "1"
+
 concurrency:
   group: mirror
   cancel-in-progress: false
@@ -22,7 +25,7 @@ concurrency:
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - name: Check every link
@@ -36,14 +39,21 @@ jobs:
           tag="mirror-$(date -u +%Y-%m-%d)"
           if gh release view "$tag" >/dev/null 2>&1; then tag="$tag-$(date -u +%H%M)"; fi
           gh release create "$tag" dist/* --title "Mirror $(date -u +%Y-%m-%d)" --notes-file dist/NOTES.md --latest
-      - name: Ask the Wayback Machine for snapshots
-        if: github.event_name == 'schedule' || inputs.wayback
-        run: python3 tools/archive.py wayback
-      - name: Render the site
-        run: python3 tools/archive.py site
-      - name: Commit state and site
+      # Commit the mirror's results before the slow snapshot step, so a timeout there loses nothing.
+      - name: Render the site and commit the mirror
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 tools/archive.py site
           git add state docs
-          git diff --cached --quiet || { git commit -m "Mirror $(date -u +%Y-%m-%d): links, checksums, snapshots"; git push; }
+          git diff --cached --quiet || { git commit -m "Mirror $(date -u +%Y-%m-%d): links and checksums"; git push; }
+      - name: Ask the Wayback Machine for snapshots
+        if: github.event_name == 'schedule' || inputs.wayback
+        timeout-minutes: 90
+        run: python3 tools/archive.py wayback
+      - name: Render the site and commit the snapshots
+        if: always()
+        run: |
+          python3 tools/archive.py site
+          git add state docs
+          git diff --cached --quiet || { git commit -m "Wayback snapshots $(date -u +%Y-%m-%d)"; git pull --rebase -q && git push; }

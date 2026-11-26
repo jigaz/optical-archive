@@ -397,7 +397,7 @@
       "category": "drive-commands",
       "title": "SCSI Multimedia Commands 3 (MMC-3), draft revision 10g, 2001",
       "publisher": "INCITS T10 (preserved by the Internet Archive)",
-      "url": "https://ia802909.us.archive.org/35/items/mmc3r10g/mmc3r10g.pdf",
+      "url": "https://archive.org/details/mmc3r10g",
       "hosting": "link",
       "license": "A public working draft from 2001; copyright stays with INCITS, so we link rather than copy."
     },
@@ -440,7 +440,10 @@
       "home": "https://fy.chalmers.se/~appro/linux/DVD+RW/",
       "hosting": "copy",
       "license": "GPL-2.0",
-      "notes": "Last released in 2008 on a university server; exactly the kind of source this archive exists to keep."
+      "notes": "Last released in 2008 on a university server, which no longer serves the tarball (404 in November 2026). The copy comes from Debian's archive of the same upstream file.",
+      "fallback_urls": [
+        "https://deb.debian.org/debian/pool/main/d/dvd+rw-tools/dvd+rw-tools_7.1.orig.tar.gz"
+      ]
     },
     {
       "id": "cdrdao",
@@ -482,11 +485,12 @@
     {
       "id": "apple-scsi-family",
       "category": "source",
-      "title": "Apple IOSCSIArchitectureModelFamily 137.3.5, including IOSCSIMultimediaCommands (the macOS optical drive driver)",
+      "title": "Apple IOSCSIArchitectureModelFamily, including IOSCSIMultimediaCommands (the macOS optical drive driver)",
       "publisher": "Apple (open source)",
-      "url": "https://opensource.apple.com/source/IOSCSIArchitectureModelFamily/IOSCSIArchitectureModelFamily-137.3.5/",
+      "url": "https://github.com/apple-oss-distributions/IOSCSIArchitectureModelFamily",
       "hosting": "link",
-      "license": "Apple Public Source License 2.0, which permits redistribution; a mirrored copy is planned."
+      "license": "Apple Public Source License 2.0, which permits redistribution; a mirrored copy is planned.",
+      "notes": "Apple's original source browser (opensource.apple.com/source/…) now returns 404; this is Apple's official mirror."
     },
     {
       "id": "libcdio",
@@ -566,10 +570,11 @@
       "id": "dvd-books",
       "category": "licensed",
       "title": "DVD Books (DVD-Video, DVD-R, DVD-RW and others)",
-      "publisher": "DVD Format/Logo Licensing Corporation",
-      "url": "https://www.dvdfllc.co.jp/",
+      "publisher": "DVD Forum / DVD Format/Logo Licensing Corporation",
+      "url": "https://en.wikipedia.org/wiki/DVD_Forum",
       "hosting": "link",
-      "license": "Licensed to members."
+      "license": "Licensed to members.",
+      "notes": "The DVD Books are licensed through the DVD Format/Logo Licensing Corporation; this links to an overview of the licensing bodies."
     },
     {
       "id": "bda-specs",

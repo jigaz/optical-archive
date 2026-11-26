@@ -83,9 +83,9 @@ def validate(catalog):
 # MARK: - Network
 
 
-def request(url, method="GET", limit=None):
+def request(url, method="GET", limit=None, timeout=TIMEOUT):
     req = urllib.request.Request(url, method=method, headers={"User-Agent": AGENT})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         body = response.read(limit) if limit else (b"" if method == "HEAD" else response.read())
         return response.status, response.geturl(), response.headers, body
 
@@ -138,15 +138,22 @@ def mirror(catalog):
     for item in catalog["items"]:
         if item["hosting"] != "copy":
             continue
-        source = links.get(item["id"], {}).get("pdf_url") if item.get("fetch") else item["url"]
-        if not source:
+        primary = links.get(item["id"], {}).get("pdf_url") if item.get("fetch") else item["url"]
+        candidates = [u for u in [primary, *item.get("fallback_urls", [])] if u]
+        if not candidates:
             print(f"BAD {item['id']}: no source URL (run check first)")
             failures += 1
             continue
-        try:
-            _, _, headers, body = request(source)
-        except (urllib.error.URLError, OSError) as error:
-            print(f"BAD {item['id']}: {error}")
+        body, source = None, None
+        for candidate in candidates:
+            try:
+                _, _, _, body = request(candidate)
+                source = candidate
+                break
+            except (urllib.error.URLError, OSError) as error:
+                print(f"... {item['id']}: {candidate}: {error}")
+        if body is None or source is None:
+            print(f"BAD {item['id']}: every source failed")
             failures += 1
             continue
         name = asset_name(item["id"], source)
@@ -180,9 +187,13 @@ def wayback(catalog):
         urls.append((item["id"], item["url"]))
         if links.get(item["id"], {}).get("pdf_url"):
             urls.append((item["id"] + ":pdf", links[item["id"]]["pdf_url"]))
+    fresh_after = time.time() - 25 * 86400
     for key, url in urls:
+        saved = snapshots.get(key, {})
+        if saved.get("url") == url and saved.get("saved", "") >= time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(fresh_after)):
+            continue  # snapshotted recently enough
         try:
-            _, final, _, _ = request("https://web.archive.org/save/" + url, limit=1)
+            _, final, _, _ = request("https://web.archive.org/save/" + url, limit=1, timeout=45)
             snapshots[key] = {"url": url, "snapshot": final, "saved": now()}
             print(f"ok  {key}: {final}")
         except (urllib.error.URLError, OSError) as error:
